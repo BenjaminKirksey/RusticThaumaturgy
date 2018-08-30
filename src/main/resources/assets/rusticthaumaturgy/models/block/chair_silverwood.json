@@ -1,8 +1,8 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
-        "0": "thaumcraft:blocks/plankSilverwood",
-	"particle": "thaumcraft:blocks/plankSilverwood"
+        "0": "thaumcraft:blocks/plank_Silverwood",
+	"particle": "thaumcraft:blocks/plank_Silverwood"
     },
     "elements": [
         {
