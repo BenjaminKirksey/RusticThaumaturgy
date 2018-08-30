@@ -1,3 +1,5 @@
+//Hello World
+
 package com.github.voxelfriend.rusticthaumaturgy;
 
 import org.apache.logging.log4j.Logger;

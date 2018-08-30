@@ -1,3 +1,5 @@
+//Hello World
+
 package com.github.voxelfriend.rusticthaumaturgy.proxy;
 
 import com.github.voxelfriend.rusticthaumaturgy.block.ModBlocks;

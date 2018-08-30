@@ -1,3 +1,5 @@
+//Hello World
+
 package com.github.voxelfriend.rusticthaumaturgy.crafting;
 import com.github.voxelfriend.rusticthaumaturgy.RusticThaumaturgy;
 import com.github.voxelfriend.rusticthaumaturgy.block.ModBlocks;
