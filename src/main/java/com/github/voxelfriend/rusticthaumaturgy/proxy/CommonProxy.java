@@ -11,8 +11,6 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 public class CommonProxy {
 
-	public static Configuration config;
-
 	public void preInit(FMLPreInitializationEvent event) {
 		ModBlocks.init();
 	}
@@ -22,7 +20,5 @@ public class CommonProxy {
 
 	public void postInit(FMLPostInitializationEvent event) {
 	}
-
-
 
 }
