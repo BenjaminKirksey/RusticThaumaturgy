@@ -23,33 +23,33 @@ package com.github.voxelfriend.rusticthaumaturgy.common.block.fluids;
 
     public class ModFluids {
     	
-		public static Fluid CINDERFIRE_WHISKEY;
-		public static Fluid GREATER_CINDERFIRE_WHISKEY;
-		public static Fluid CINDERFIRE_WORT;
+    	public static Fluid CINDERFIRE_WORT;
 		public static Fluid GREATER_CINDERFIRE_WORT;
-		public static Fluid SHIMMERDEW_SPIRITS;
-		public static Fluid GREATER_SHIMMERDEW_SPIRITS;
 		public static Fluid SHIMMERDEW_WORT;
 		public static Fluid GREATER_SHIMMERDEW_WORT;
-		public static Fluid VISCOUS_BREW;
-		public static Fluid GREATER_VISCOUS_BREW;
 		public static Fluid VISCOUS_WORT;
 		public static Fluid GREATER_VISCOUS_WORT;
+		public static Fluid CINDERFIRE_WHISKEY;
+		public static Fluid GREATER_CINDERFIRE_WHISKEY;
+		public static Fluid SHIMMERDEW_SPIRITS;
+		public static Fluid GREATER_SHIMMERDEW_SPIRITS;		
+		public static Fluid VISCOUS_BREW;
+		public static Fluid GREATER_VISCOUS_BREW;		
 		
 		private static List<Fluid> FLUIDS = new ArrayList<Fluid>();
 		
-		public static BlockFluidRT BLOCK_CINDERFIRE_WHISKEY;
-		public static BlockFluidRT BLOCK_GREATER_CINDERFIRE_WHISKEY;
 		public static BlockFluidRT BLOCK_CINDERFIRE_WORT;
 		public static BlockFluidRT BLOCK_GREATER_CINDERFIRE_WORT;
-		public static BlockFluidRT BLOCK_SHIMMERDEW_SPIRITS;
-		public static BlockFluidRT BLOCK_GREATER_SHIMMERDEW_SPIRITS;
 		public static BlockFluidRT BLOCK_SHIMMERDEW_WORT;
 		public static BlockFluidRT BLOCK_GREATER_SHIMMERDEW_WORT;
+		public static BlockFluidRT BLOCK_VISCOUS_WORT;
+		public static BlockFluidRT BLOCK_GREATER_VISCOUS_WORT;
+		public static BlockFluidRT BLOCK_CINDERFIRE_WHISKEY;
+		public static BlockFluidRT BLOCK_GREATER_CINDERFIRE_WHISKEY;
+		public static BlockFluidRT BLOCK_SHIMMERDEW_SPIRITS;
+		public static BlockFluidRT BLOCK_GREATER_SHIMMERDEW_SPIRITS;
 		public static BlockFluidRT BLOCK_VISCOUS_BREW;
 		public static BlockFluidRT BLOCK_GREATER_VISCOUS_BREW;
-		public static BlockFluidRT BLOCK_VISCOUS_WORT;
-		public static BlockFluidRT BLOCK_GREATER_VISCOUS_WORT; 
 		
 		public static void init() {
 			

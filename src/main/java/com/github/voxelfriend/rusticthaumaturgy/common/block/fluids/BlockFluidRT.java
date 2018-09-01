@@ -25,14 +25,13 @@ import com.github.voxelfriend.rusticthaumaturgy.core.RusticThaumaturgy;
 
 public class BlockFluidRT extends BlockFluidClassic {
 	
-	public BlockFluidRT(String name, Fluid fluid, Material material ) {
-		
+	public BlockFluidRT(String name, Fluid fluid, Material material) {
 		super(fluid, material);
 		setRegistryName(name);
 		setUnlocalizedName(RusticThaumaturgy.MODID + "." + name);
 		GameRegistry.findRegistry(Block.class).register(this);
 		GameRegistry.findRegistry(Item.class).register(new ItemBlock(this).setRegistryName(getRegistryName()));
-fluid.setBlock(this);
+        fluid.setBlock(this);
 	}
 	
 	@Override
