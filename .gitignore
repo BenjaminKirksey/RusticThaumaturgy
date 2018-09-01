@@ -26,3 +26,7 @@ resourcepacks
 config
 crash-reports
 mods
+saves
+options.txt
+usercache.json
+usernamecache.json
