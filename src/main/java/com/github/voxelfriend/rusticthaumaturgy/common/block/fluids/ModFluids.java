@@ -266,13 +266,17 @@ package com.github.voxelfriend.rusticthaumaturgy.common.block.fluids;
 	    }
 		
 		private static void register(Fluid fluid) {
-			fluid = FluidRegistry.getFluid(fluid.getName());
-			FluidRegistry.addBucketForFluid(fluid);
-	        FLUIDS.add(fluid);
-	    }
+            if (!FluidRegistry.registerFluid(fluid)) {
+                fluid = FluidRegistry.getFluid(fluid.getName());
+            }
+            fluid = FluidRegistry.getFluid(fluid.getName());
+            FluidRegistry.addBucketForFluid(fluid);
+
+			FLUIDS.add(fluid);
+	}
 		
 		public static ArrayList<Fluid> getFluids() {
 			return new ArrayList<Fluid>(FLUIDS);
 	    }
 		
-	}
+}
