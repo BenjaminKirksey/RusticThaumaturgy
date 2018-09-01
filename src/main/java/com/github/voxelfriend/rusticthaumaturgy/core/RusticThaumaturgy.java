@@ -1,11 +1,11 @@
 //Hello World
 
-package com.github.voxelfriend.rusticthaumaturgy;
+package com.github.voxelfriend.rusticthaumaturgy.core;
 
 import org.apache.logging.log4j.Logger;
 
 import com.github.voxelfriend.rusticthaumaturgy.crafting.Recipes;
-import com.github.voxelfriend.rusticthaumaturgy.proxy.CommonProxy;
+import com.github.voxelfriend.rusticthaumaturgy.core.CommonProxy;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -20,7 +20,7 @@ public class RusticThaumaturgy {
 	public static final String NAME = "Rustic Thaumaturgy";
 	public static final String VERSION = "1.0";
 
-	@SidedProxy(clientSide = "com.github.voxelfriend.rusticthaumaturgy.proxy.ClientProxy", serverSide = "com.github.voxelfriend.rusticthaumaturgy.proxy.CommonProxy")
+	@SidedProxy(clientSide = "com.github.voxelfriend.rusticthaumaturgy.core.ClientProxy", serverSide = "com.github.voxelfriend.rusticthaumaturgy.core.CommonProxy")
 	public static CommonProxy proxy;
 
 	@EventHandler

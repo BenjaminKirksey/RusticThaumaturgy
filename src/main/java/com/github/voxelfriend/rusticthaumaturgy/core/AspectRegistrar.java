@@ -1,4 +1,4 @@
-package com.github.voxelfriend.rusticthaumaturgy;
+package com.github.voxelfriend.rusticthaumaturgy.core;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

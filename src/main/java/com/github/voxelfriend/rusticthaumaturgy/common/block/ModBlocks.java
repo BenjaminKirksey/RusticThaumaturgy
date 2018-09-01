@@ -1,6 +1,6 @@
 //Hello World
 
-package com.github.voxelfriend.rusticthaumaturgy.block;
+package com.github.voxelfriend.rusticthaumaturgy.common.block;
 
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
