@@ -21,3 +21,8 @@ build
 eclipse
 run
 libs
+logs
+resourcepacks
+config
+crash-reports
+mods
