@@ -269,7 +269,6 @@ package com.github.voxelfriend.rusticthaumaturgy.common.block.fluids;
             if (!FluidRegistry.registerFluid(fluid)) {
                 fluid = FluidRegistry.getFluid(fluid.getName());
             }
-            fluid = FluidRegistry.getFluid(fluid.getName());
             FluidRegistry.addBucketForFluid(fluid);
 
 			FLUIDS.add(fluid);
