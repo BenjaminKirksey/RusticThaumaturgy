@@ -77,7 +77,7 @@ package com.github.voxelfriend.rusticthaumaturgy.common.block.fluids;
 			
 			register(GREATER_CINDERFIRE_WORT);
 			
-			SHIMMERDEW_WORT = new FluidDrinkable("cinderfirewort",
+			SHIMMERDEW_WORT = new FluidDrinkable("shimmerdew",
 					new ResourceLocation("rusticthaumaturgy:blocks/fluids/shimmerdew_wort_still"),
 					new ResourceLocation("rusticthaumaturgy:blocks/fluids/shimmerdew_wort_flow")) {
 				@Override
@@ -246,7 +246,7 @@ package com.github.voxelfriend.rusticthaumaturgy.common.block.fluids;
 			BLOCK_SHIMMERDEW_WORT = new BlockFluidRT("shimmerdew_wort", SHIMMERDEW_WORT, Material.WATER);
 			BLOCK_SHIMMERDEW_WORT.setQuantaPerBlock(4);
 			
-			BLOCK_GREATER_SHIMMERDEW_WORT = new BlockFluidRT("greater_cinderfire_wort", GREATER_CINDERFIRE_WORT, Material.WATER);
+			BLOCK_GREATER_SHIMMERDEW_WORT = new BlockFluidRT("greater_shimmerdew_wort", GREATER_SHIMMERDEW_WORT, Material.WATER);
 			BLOCK_GREATER_SHIMMERDEW_WORT.setQuantaPerBlock(4);
 			
 			BLOCK_VISCOUS_WORT = new BlockFluidRT("viscous_wort", VISCOUS_WORT, Material.WATER);

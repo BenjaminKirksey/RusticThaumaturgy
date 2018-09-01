@@ -5,14 +5,28 @@ package com.github.voxelfriend.rusticthaumaturgy.core;
 import org.apache.logging.log4j.Logger;
 
 import com.github.voxelfriend.rusticthaumaturgy.crafting.Recipes;
+import com.github.voxelfriend.rusticthaumaturgy.common.block.ModBlocks;
+import com.github.voxelfriend.rusticthaumaturgy.common.block.fluids.ModFluids;
+import com.github.voxelfriend.rusticthaumaturgy.common.items.ModItems;
 import com.github.voxelfriend.rusticthaumaturgy.core.CommonProxy;
 
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.NonNullList;
+import net.minecraftforge.common.ForgeModContainer;
+import net.minecraftforge.fluids.Fluid;
+import net.minecraftforge.fluids.FluidStack;
+import net.minecraftforge.fluids.capability.IFluidHandlerItem;
+import net.minecraftforge.fluids.capability.wrappers.FluidBucketWrapper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 @Mod(modid = RusticThaumaturgy.MODID, name = RusticThaumaturgy.NAME, version = RusticThaumaturgy.VERSION, dependencies = "required-after:rustic;required-after:thaumcraft")
 public class RusticThaumaturgy {
@@ -22,6 +36,19 @@ public class RusticThaumaturgy {
 
 	@SidedProxy(clientSide = "com.github.voxelfriend.rusticthaumaturgy.core.ClientProxy", serverSide = "com.github.voxelfriend.rusticthaumaturgy.core.CommonProxy")
 	public static CommonProxy proxy;
+	
+	public static CreativeTabs mainTab = new CreativeTabs("rusticthaumaturgy.main") {
+		@Override
+		public String getTabLabel() {
+			return "rusticthaumaturgy.main";
+		}
+
+		@Override
+		@SideOnly(Side.CLIENT)
+		public ItemStack getTabIconItem() {
+			return new ItemStack(ModItems.CINDERMOTE);
+		}
+};
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {

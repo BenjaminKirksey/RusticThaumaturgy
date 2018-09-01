@@ -1,5 +1,6 @@
 package com.github.voxelfriend.rusticthaumaturgy.common.items;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
@@ -13,8 +14,10 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.world.World;
 import net.minecraftforge.common.MinecraftForge;
-import rustic.common.items.ItemBase;
-import rustic.core.Rustic;
+import net.minecraft.creativetab.CreativeTabs;
+import com.github.voxelfriend.rusticthaumaturgy.core.RusticThaumaturgy;
+import net.minecraftforge.fml.common.Mod;
+
 
 public class ModItems {
 	public static ItemBase BLAZE_POWDER_TINY;
@@ -27,19 +30,19 @@ public class ModItems {
 	
 	public static void init() {
 		BLAZE_POWDER_TINY = new ItemBase("dust_tiny_blaze");
-		BLAZE_POWDER_TINY.setCreativeTab(Rustic.farmingTab);
+		BLAZE_POWDER_TINY.setCreativeTab(RusticThaumaturgy.mainTab);
 		CINDERMOTE = new ItemBase("cindermote");
-		CINDERMOTE.setCreativeTab(Rustic.farmingTab);
-		CINDERMOTE_SEEDS = new ItemBase("cindermote");
-		CINDERMOTE_SEEDS.setCreativeTab(Rustic.farmingTab);
+		CINDERMOTE.setCreativeTab(RusticThaumaturgy.mainTab);
+		CINDERMOTE_SEEDS = new ItemBase("cindermote_seeds");
+		CINDERMOTE_SEEDS.setCreativeTab(RusticThaumaturgy.mainTab);
 		SHIMMERPETAL = new ItemBase("shimmerpetal");
-		SHIMMERPETAL.setCreativeTab(Rustic.farmingTab);
-		SHIMMERPETAL_BULB = new ItemBase("shimmerpetal");
-		SHIMMERPETAL_BULB.setCreativeTab(Rustic.farmingTab);
+		SHIMMERPETAL.setCreativeTab(RusticThaumaturgy.mainTab);
+		SHIMMERPETAL_BULB = new ItemBase("shimmerpetal_bulb");
+		SHIMMERPETAL_BULB.setCreativeTab(RusticThaumaturgy.mainTab);
 		VISCAP =new ItemBase("viscap");
-		VISCAP.setCreativeTab(Rustic.farmingTab);
-		VISCAP_SPORES =new ItemBase("viscap");
-		VISCAP_SPORES.setCreativeTab(Rustic.farmingTab);
+		VISCAP.setCreativeTab(RusticThaumaturgy.mainTab);
+		VISCAP_SPORES =new ItemBase("viscap_spores");
+		VISCAP_SPORES.setCreativeTab(RusticThaumaturgy.mainTab);
 
 		
 		
