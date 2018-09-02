@@ -1,1 +1,1 @@
-gradlew --refresh-dependencies setupDecompWorkspace && gradlew eclipse
+gradlew setupDecompWorkspace && gradlew eclipse
