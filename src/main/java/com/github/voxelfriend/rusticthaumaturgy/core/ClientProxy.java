@@ -2,7 +2,6 @@
 
 package com.github.voxelfriend.rusticthaumaturgy.core;
 
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -29,8 +28,6 @@ import com.github.voxelfriend.rusticthaumaturgy.common.block.ModBlocks;
 import com.github.voxelfriend.rusticthaumaturgy.common.block.fluids.ModFluids;
 import com.github.voxelfriend.rusticthaumaturgy.common.items.ModItems;
 
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-
 public class ClientProxy extends CommonProxy {
 
 	@Override
@@ -38,9 +35,17 @@ public class ClientProxy extends CommonProxy {
 		super.preInit(event);
 		ModFluids.initModels();
 		ModBlocks.initModels();
-        ModItems.initModels();
+		ModItems.initModels();
 	}
 
+	@Override
+	public void init(FMLInitializationEvent event) {
 
+	}
+
+	@Override
+	public void postInit(FMLPostInitializationEvent event) {
+
+	}
 
 }

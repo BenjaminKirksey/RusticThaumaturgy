@@ -41,7 +41,7 @@ package com.github.voxelfriend.rusticthaumaturgy.common.block.fluids;
 		
 		public static void init() {
 			
-			CINDERFIRE_WORT = new FluidDrinkable("cinderfirewort",
+			CINDERFIRE_WORT = new FluidDrinkable("cinderfire_wort",
 					new ResourceLocation("rusticthaumaturgy:blocks/fluids/cinderfire_wort_still"),
 					new ResourceLocation("rusticthaumaturgy:blocks/fluids/cinderfire_wort_flow")) {
 				@Override
@@ -53,7 +53,7 @@ package com.github.voxelfriend.rusticthaumaturgy.common.block.fluids;
 			
 			register(CINDERFIRE_WORT);
 			
-			SHIMMERDEW_WORT = new FluidDrinkable("shimmerdew",
+			SHIMMERDEW_WORT = new FluidDrinkable("shimmerdew_wort",
 					new ResourceLocation("rusticthaumaturgy:blocks/fluids/shimmerdew_wort_still"),
 					new ResourceLocation("rusticthaumaturgy:blocks/fluids/shimmerdew_wort_flow")) {
 				@Override
@@ -65,7 +65,7 @@ package com.github.voxelfriend.rusticthaumaturgy.common.block.fluids;
 			
 			register(SHIMMERDEW_WORT);
 						
-			VISCOUS_WORT = new FluidDrinkable("viscouswort",
+			VISCOUS_WORT = new FluidDrinkable("viscous_wort",
 					new ResourceLocation("rusticthaumaturgy:blocks/fluids/viscous_wort_still"),
 					new ResourceLocation("rusticthaumaturgy:blocks/fluids/viscous_wort_flow")) {
 				@Override
@@ -77,7 +77,7 @@ package com.github.voxelfriend.rusticthaumaturgy.common.block.fluids;
 			
 			register(VISCOUS_WORT);
 		
-			CINDERFIRE_WHISKEY = new FluidBooze("cinderfirewhiskey",
+			CINDERFIRE_WHISKEY = new FluidBooze("cinderfire_whiskey",
 					new ResourceLocation("rusticthaumaturgy:blocks/fluids/booze/cinderfire_whiskey_still"),
 					new ResourceLocation("rusticthaumaturgy:blocks/fluids/booze/cinderfire_whiskey_flow")) {
 				@Override
@@ -96,7 +96,7 @@ package com.github.voxelfriend.rusticthaumaturgy.common.block.fluids;
 			}.setInebriationChance(0.5F).setDensity(1004).setViscosity(1016);
 	        register(CINDERFIRE_WHISKEY);
 	        
-	        SHIMMERDEW_SPIRITS = new FluidBooze("shimmeringspirits",
+	        SHIMMERDEW_SPIRITS = new FluidBooze("shimmering_spirits",
 	        		new ResourceLocation("rusticthaumaturgy:blocks/fluids/booze/shimmering_spirits_still"),
 	        		new ResourceLocation("rusticthaumaturgy:blocks/fluids/booze/shimmering_spirits_flow")) {
 				@Override
@@ -115,7 +115,7 @@ package com.github.voxelfriend.rusticthaumaturgy.common.block.fluids;
 			}.setInebriationChance(0.5F).setDensity(1004).setViscosity(1016);
 	        register(SHIMMERDEW_SPIRITS);
 	        
-	        VISCOUS_BREW = new FluidBooze("viscousbrew",
+	        VISCOUS_BREW = new FluidBooze("viscous_brew",
 	        		new ResourceLocation("rusticthaumaturgy:blocks/fluids/booze/viscous_brew_still"),
 	        		new ResourceLocation("rusticthaumaturgy:blocks/fluids/booze/viscous_brew_flow")) {
 				@Override
