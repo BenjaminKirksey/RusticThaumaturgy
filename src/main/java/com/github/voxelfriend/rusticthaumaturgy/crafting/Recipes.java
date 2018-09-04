@@ -43,7 +43,7 @@ public class Recipes {
 	public static List<CrushingTubRecipe> crushingTubRecipes;
 	public static List<EvaporatingBasinRecipe> evaporatingRecipes; 
 	public static List<CondenserRecipe> condenserRecipes;
-    public static List<BrewingBarrelRecipe> brewingRecipes;
+	public static List<BrewingBarrelRecipe> brewingRecipes;
 
     
     public static void init() {
