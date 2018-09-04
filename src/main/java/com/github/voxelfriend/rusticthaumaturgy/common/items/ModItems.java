@@ -21,42 +21,42 @@ import rustic.common.items.ItemStakeCropSeed;
 
 
 public class ModItems {
-	public static ItemBase BLAZE_POWDER_TINY;
-	public static ItemBase CINDERMOTE;
-	public static ItemBase CINDERMOTE_SEEDS;
-	public static ItemBase SHIMMERPETAL;
-	public static ItemBase SHIMMERPETAL_BULB;
-	public static ItemBase VISCAP;
-	public static ItemBase VISCAP_SPORES;
+//	public static ItemBase BLAZE_POWDER_TINY;
+//	public static ItemBase CINDERMOTE;
+//	public static ItemBase CINDERMOTE_SEEDS;
+//	public static ItemBase SHIMMERPETAL;
+//	public static ItemBase SHIMMERPETAL_BULB;
+//	public static ItemBase VISCAP;
+//	public static ItemBase VISCAP_SPORES;
 	
 	public static void init() {
-		BLAZE_POWDER_TINY = new ItemBase("dust_tiny_blaze");
-		BLAZE_POWDER_TINY.setCreativeTab(RusticThaumaturgy.mainTab);
-		CINDERMOTE = new ItemBase("cindermote");
-		CINDERMOTE.setCreativeTab(RusticThaumaturgy.mainTab);
-		CINDERMOTE_SEEDS = new ItemBase("cindermote_seeds");
-		CINDERMOTE_SEEDS.setCreativeTab(RusticThaumaturgy.mainTab);
-		SHIMMERPETAL = new ItemBase("shimmerpetal");
-		SHIMMERPETAL.setCreativeTab(RusticThaumaturgy.mainTab);
-		SHIMMERPETAL_BULB = new ItemBase("shimmerpetal_bulb");
-		SHIMMERPETAL_BULB.setCreativeTab(RusticThaumaturgy.mainTab);
-		VISCAP =new ItemBase("viscap");
-		VISCAP.setCreativeTab(RusticThaumaturgy.mainTab);
-		VISCAP_SPORES =new ItemBase("viscap_spores");
-		VISCAP_SPORES.setCreativeTab(RusticThaumaturgy.mainTab);
+//		BLAZE_POWDER_TINY = new ItemBase("dust_tiny_blaze");
+//		BLAZE_POWDER_TINY.setCreativeTab(RusticThaumaturgy.mainTab);
+//		CINDERMOTE = new ItemBase("cindermote");
+//		CINDERMOTE.setCreativeTab(RusticThaumaturgy.mainTab);
+//		CINDERMOTE_SEEDS = new ItemBase("cindermote_seeds");
+//		CINDERMOTE_SEEDS.setCreativeTab(RusticThaumaturgy.mainTab);
+//		SHIMMERPETAL = new ItemBase("shimmerpetal");
+//		SHIMMERPETAL.setCreativeTab(RusticThaumaturgy.mainTab);
+//		SHIMMERPETAL_BULB = new ItemBase("shimmerpetal_bulb");
+//		SHIMMERPETAL_BULB.setCreativeTab(RusticThaumaturgy.mainTab);
+//		VISCAP =new ItemBase("viscap");
+//		VISCAP.setCreativeTab(RusticThaumaturgy.mainTab);
+//		VISCAP_SPORES =new ItemBase("viscap_spores");
+//		VISCAP_SPORES.setCreativeTab(RusticThaumaturgy.mainTab);
 
 		
 		
 	}
 	
 	public static void initModels() {
-		BLAZE_POWDER_TINY.initModel();
-		CINDERMOTE.initModel();
-		CINDERMOTE_SEEDS.initModel();
-		SHIMMERPETAL.initModel();
-		SHIMMERPETAL_BULB.initModel();
-		VISCAP.initModel();
-		VISCAP_SPORES.initModel();
+//		BLAZE_POWDER_TINY.initModel();
+//		CINDERMOTE.initModel();
+//		CINDERMOTE_SEEDS.initModel();
+//		SHIMMERPETAL.initModel();
+//		SHIMMERPETAL_BULB.initModel();
+//		VISCAP.initModel();
+//		VISCAP_SPORES.initModel();
 		
 	}
 

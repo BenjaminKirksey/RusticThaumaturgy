@@ -40,24 +40,23 @@ import rustic.core.Rustic;
 @Mod.EventBusSubscriber(modid = RusticThaumaturgy.MODID)
 public class Recipes {
 	
-	public static List<CrushingTubRecipe> crushingTubRecipes;
-	public static List<EvaporatingBasinRecipe> evaporatingRecipes; 
-	public static List<CondenserRecipe> condenserRecipes;
-	public static List<BrewingBarrelRecipe> brewingRecipes;
-
+//	public static List<RTCrushingTubRecipe> rtcrushingTubRecipes = new ArrayList<RTCrushingTubRecipe>();
+//	public static List<RTEvaporatingBasinRecipe> rtevaporatingRecipes = new ArrayList<RTEvaporatingBasinRecipe>();
+//	public static List<RtCondenserRecipe> rtcondenserRecipes = new ArrayList<RTCondenserRecipe>();
+//	public static List<RTBrewingBarrelRecipe> rtbrewingRecipes = new ArrayList<RTBrewingBarrelRecipe>();
     
-    public static void init() {
+//  public static void init() {
 //		addCraftingRecipes();
-		addCrushingTubRecipes();
-		addEvaporatingRecipes();
+//		addCrushingTubRecipes();
+//		addEvaporatingRecipes();
 //		addCondenserRecipes();
-		addBrewingRecipes();
-    }
+//		addBrewingRecipes();
+//    }
     
-    public static void addOreDictEntries() {
-		//Adds Tiny Pile of Blaze Powder to OreDict
-    	OreDictionary.registerOre("dustTinyBlaze", new ItemStack(ModItems.BLAZE_POWDER_TINY));	
-	}
+//   public static void addOreDictEntries() {
+//		//Adds Tiny Pile of Blaze Powder to OreDict
+//    	OreDictionary.registerOre("dustTinyBlaze", new ItemStack(ModItems.BLAZE_POWDER_TINY));	
+//	}
 		
 	@SubscribeEvent
 	public static void initRecipes(RegistryEvent.Register<IRecipe> event) {
@@ -80,41 +79,41 @@ public class Recipes {
 				new ResourceLocation(RusticThaumaturgy.MODID, "table"), new ItemStack(ModBlocks.TABLE_SILVERWOOD, 2), "PPP", "S S", 'P', new ItemStack(BlocksTC.plankSilverwood), 'S', new ItemStack(Items.STICK));
 		}
 		//Cindermote to Tiny Pile of Blaze Powder Conversion Recipe
-		GameRegistry.addShapelessRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "cindermote"), new ResourceLocation(RusticThaumaturgy.MODID, "conversion"), new ItemStack(ModItems.BLAZE_POWDER_TINY), Ingredient.fromStacks(new ItemStack(ModItems.CINDERMOTE)));
+//		GameRegistry.addShapelessRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "cindermote"), new ResourceLocation(RusticThaumaturgy.MODID, "conversion"), new ItemStack(ModItems.BLAZE_POWDER_TINY), Ingredient.fromStacks(new ItemStack(ModItems.CINDERMOTE)));
 	}
 	
 	
-	public static void addCrushingTubRecipes() {
-		//Cinderfire Wort Crushing Recipes
-		crushingTubRecipes.add(new CrushingTubRecipe(new FluidStack(ModFluids.CINDERFIRE_WORT, 125), new ItemStack(ModItems.CINDERMOTE)));
-		crushingTubRecipes.add(new CrushingTubRecipe(new FluidStack(ModFluids.CINDERFIRE_WORT, 250), new ItemStack(BlocksTC.cinderpearl)));
+//	public static void addCrushingTubRecipes() {
+//		//Cinderfire Wort Crushing Recipes
+//		rtcrushingTubRecipes.add(new RTCrushingTubRecipe(new FluidStack(ModFluids.CINDERFIRE_WORT, 125), new ItemStack(ModItems.CINDERMOTE)));
+//		rtcrushingTubRecipes.add(new RTCrushingTubRecipe(new FluidStack(ModFluids.CINDERFIRE_WORT, 250), new ItemStack(BlocksTC.cinderpearl)));
 		
 		//Shimmerdew Wort Crushing Recipes
-		crushingTubRecipes.add(new CrushingTubRecipe(new FluidStack(ModFluids.SHIMMERDEW_WORT, 125), new ItemStack(ModItems.SHIMMERPETAL)));
-		crushingTubRecipes.add(new CrushingTubRecipe(new FluidStack(ModFluids.SHIMMERDEW_WORT, 250), new ItemStack(BlocksTC.shimmerleaf)));
+//		rtcrushingTubRecipes.add(new RTCrushingTubRecipe(new FluidStack(ModFluids.SHIMMERDEW_WORT, 125), new ItemStack(ModItems.SHIMMERPETAL)));
+//		rtcrushingTubRecipes.add(new RTCrushingTubRecipe(new FluidStack(ModFluids.SHIMMERDEW_WORT, 250), new ItemStack(BlocksTC.shimmerleaf)));
 		
 		//Viscous Brew Crushing Recipes
-		crushingTubRecipes.add(new CrushingTubRecipe(new FluidStack(ModFluids.VISCOUS_WORT, 125), new ItemStack(ModItems.VISCAP)));
-		crushingTubRecipes.add(new CrushingTubRecipe(new FluidStack(ModFluids.VISCOUS_WORT, 250), new ItemStack(BlocksTC.vishroom)));
-	}
+//		rtcrushingTubRecipes.add(new RTCrushingTubRecipe(new FluidStack(ModFluids.VISCOUS_WORT, 125), new ItemStack(ModItems.VISCAP)));
+//		rtcrushingTubRecipes.add(new RTCrushingTubRecipe(new FluidStack(ModFluids.VISCOUS_WORT, 250), new ItemStack(BlocksTC.vishroom)));
+//	}
 		
-	public static void addEvaporatingRecipes() {
+//	public static void addEvaporatingRecipes() {
 		//Tiny Pile of Blaze Powder Evaporation Recipe
-		evaporatingRecipes.add(new EvaporatingBasinRecipe(new ItemStack(ModItems.BLAZE_POWDER_TINY, 1),
-					new FluidStack(ModFluids.CINDERFIRE_WORT, 500)));
-	}
+//		rtevaporatingRecipes.add(new RTEvaporatingBasinRecipe(new ItemStack(ModItems.BLAZE_POWDER_TINY, 1),
+//					new FluidStack(ModFluids.CINDERFIRE_WORT, 500)));
+//	}
 		
-	public static void addBrewingRecipes() {
-		//Cinderfire Whiskey Recipe
-		brewingRecipes.add(new BrewingBarrelRecipe(new FluidStack(ModFluids.CINDERFIRE_WHISKEY, 1), new FluidStack(ModFluids.CINDERFIRE_WORT, 1)));
-		
-		//Shimmerdew Spirits Recipe
-		brewingRecipes.add(new BrewingBarrelRecipe(new FluidStack(ModFluids.SHIMMERDEW_SPIRITS, 1), new FluidStack(ModFluids.SHIMMERDEW_WORT, 1)));
-		
-		//Viscous Brew Recipe
-		brewingRecipes.add(new BrewingBarrelRecipe(new FluidStack(ModFluids.VISCOUS_BREW, 1),new FluidStack(ModFluids.VISCOUS_WORT, 1)));
-	}
-	
+//	public static void addBrewingRecipes() {
+//		//Cinderfire Whiskey Recipe
+//		rtbrewingRecipes.add(new RTBrewingBarrelRecipe(new FluidStack(ModFluids.CINDERFIRE_WHISKEY, 1), new FluidStack(ModFluids.CINDERFIRE_WORT, 1)));
+//		
+//		//Shimmerdew Spirits Recipe
+//		rtbrewingRecipes.add(new RTBrewingBarrelRecipe(new FluidStack(ModFluids.SHIMMERDEW_SPIRITS, 1), new FluidStack(ModFluids.SHIMMERDEW_WORT, 1)));
+//		
+//		//Viscous Brew Recipe
+//		rtbrewingRecipes.add(new RTBrewingBarrelRecipe(new FluidStack(ModFluids.VISCOUS_BREW, 1),new FluidStack(ModFluids.VISCOUS_WORT, 1)));
+//	}
+//	
 //	public static void onPostInit()	
 //		ThaumcraftApi.addArcaneCraftingRecipe(new ResourceLocation(RusticThaumaturgy.MOD_ID, "cindermote_seeds"),
 //				new ShapedArcaneRecipe(new ResourceLocation("****"),"****", ****, new AspectList().add(Aspect.****,****), new ItemStack(ModItems.CINDERMOTE), "****", " ****", "****", ****, "****", ****, BlockTC.cinderpearl, ****, ****));
