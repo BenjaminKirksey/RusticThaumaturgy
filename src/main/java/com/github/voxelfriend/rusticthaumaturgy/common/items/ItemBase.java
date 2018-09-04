@@ -14,7 +14,7 @@ public class ItemBase extends Item {
 		super();
 		setRegistryName(name);
 		setUnlocalizedName(RusticThaumaturgy.MODID + "." + name);
-		setCreativeTab(Rustic.farmingTab);
+		setCreativeTab(RusticThaumaturgy.mainTab);
 		GameRegistry.findRegistry(Item.class).register(this);
 	}
 	

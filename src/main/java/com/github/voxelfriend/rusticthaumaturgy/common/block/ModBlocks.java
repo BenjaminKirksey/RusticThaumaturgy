@@ -5,8 +5,6 @@ package com.github.voxelfriend.rusticthaumaturgy.common.block;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import rustic.common.Config;
-import rustic.common.blocks.BlockChair;
-import rustic.common.blocks.BlockTable;
 
 public class ModBlocks {
 

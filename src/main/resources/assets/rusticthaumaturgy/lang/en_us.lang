@@ -1,5 +1,7 @@
+#Creative Tab
+itemGroup.rusticthaumaturgy.main=Rustic Thaumaturgy
 #Blocks
-tile.rustic.chair_greatwood.name=Greatwood Chair
-tile.rustic.table_greatwood.name=Greatwood Table
-tile.rustic.chair_silverwood.name=Silverwood Chair
-tile.rustic.table_silverwood.name=Silverwood Table
+tile.rusticthaumaturgy.chair_greatwood.name=Greatwood Chair
+tile.rusticthaumaturgy.table_greatwood.name=Greatwood Table
+tile.rusticthaumaturgy.chair_silverwood.name=Silverwood Chair
+tile.rusticthaumaturgy.table_silverwood.name=Silverwood Table

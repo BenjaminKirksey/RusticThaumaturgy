@@ -37,18 +37,18 @@ public class RusticThaumaturgy {
 	@SidedProxy(clientSide = "com.github.voxelfriend.rusticthaumaturgy.core.ClientProxy", serverSide = "com.github.voxelfriend.rusticthaumaturgy.core.CommonProxy")
 	public static CommonProxy proxy;
 	
-//	public static CreativeTabs mainTab = new CreativeTabs("rusticthaumaturgy.main") {
-//		@Override
-//		public String getTabLabel() {
-//			return "rusticthaumaturgy.main";
-//		}
+	public static CreativeTabs mainTab = new CreativeTabs("rusticthaumaturgy.main") {
+		@Override
+		public String getTabLabel() {
+			return "rusticthaumaturgy.main";
+		}
 
-//		@Override
-//		@SideOnly(Side.CLIENT)
-//		public ItemStack getTabIconItem() {
-//			return new ItemStack(ModItems.CINDERMOTE);
-//		}
-//    };
+		@Override
+		@SideOnly(Side.CLIENT)
+		public ItemStack getTabIconItem() {
+			return new ItemStack(ModBlocks.CHAIR_GREATWOOD);
+		}
+    };
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
