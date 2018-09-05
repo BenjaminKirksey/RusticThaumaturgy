@@ -3,6 +3,7 @@ package com.github.voxelfriend.rusticthaumaturgy.common.items;
 
 import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemSeeds;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
@@ -22,7 +23,7 @@ import com.github.voxelfriend.rusticthaumaturgy.reference.Names;
 public class ItemShimmerpetalBulb extends ItemSeeds {
 
     public ItemShimmerpetalBulb() {
-        super(ModBlocks.SHIMMERPETAL, null);
+        super(ModBlocks.SHIMMERPETAL, Blocks.FARMLAND);
         this.setUnlocalizedName(Names.Items.SHIMMERPETAL_BULB);
         this.setRegistryName(Names.Items.SHIMMERPETAL_BULB);
     }

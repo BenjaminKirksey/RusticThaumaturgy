@@ -3,6 +3,7 @@ package com.github.voxelfriend.rusticthaumaturgy.common.items;
 
 import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemSeeds;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
@@ -22,7 +23,7 @@ import com.github.voxelfriend.rusticthaumaturgy.reference.Names;
 public class ItemViscapSpores extends ItemSeeds {
 
     public ItemViscapSpores() {
-        super(ModBlocks.VISCAP, null);
+        super(ModBlocks.VISCAP, Blocks.FARMLAND);
         this.setUnlocalizedName(Names.Items.VISCAP_SPORES);
         this.setRegistryName(Names.Items.VISCAP_SPORES);
     }
