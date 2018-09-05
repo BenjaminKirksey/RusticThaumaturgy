@@ -32,7 +32,7 @@ public class CommonProxy {
 	public static Configuration config;
 
 	public void preInit(FMLPreInitializationEvent event) {
-//        ModFluids.init();
+        ModFluids.init();
         ModBlocks.init();
         ModItems.init();        
     }
@@ -46,9 +46,9 @@ public class CommonProxy {
     }
     
     public void initFluidBottle() {
-//      ItemFluidBottle.addFluid(ModFluids.CINDERFIRE_WHISKEY);
-//	    ItemFluidBottle.addFluid(ModFluids.SHIMMERDEW_SPIRITS);
-//	    ItemFluidBottle.addFluid(ModFluids.VISCOUS_BREW);
+        ItemFluidBottle.addFluid(ModFluids.CINDERFIRE_WHISKEY);
+	    ItemFluidBottle.addFluid(ModFluids.SHIMMERDEW_SPIRITS);
+	    ItemFluidBottle.addFluid(ModFluids.VISCOUS_BREW);
     }
 	
 }
