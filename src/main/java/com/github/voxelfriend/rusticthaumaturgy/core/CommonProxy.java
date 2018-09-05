@@ -27,6 +27,7 @@ import rustic.common.util.DispenseRope;
 import rustic.common.world.WorldGeneratorRustic;
 import rustic.compat.Compat;
 
+
 public class CommonProxy {
 	
 	public static Configuration config;
@@ -34,10 +35,12 @@ public class CommonProxy {
 	public void preInit(FMLPreInitializationEvent event) {
         ModFluids.init();
         ModBlocks.init();
-        ModItems.init();        
+        ModItems.init();
     }
 	
 	public void init(FMLInitializationEvent event) {
+		Recipes.init();
+		initFluidBottle();
 		 
 	}
 

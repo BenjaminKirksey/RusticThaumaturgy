@@ -27,6 +27,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import com.github.voxelfriend.rusticthaumaturgy.common.block.ModBlocks;
 import com.github.voxelfriend.rusticthaumaturgy.common.block.fluids.ModFluids;
 import com.github.voxelfriend.rusticthaumaturgy.common.items.ModItems;
+import com.github.voxelfriend.rusticthaumaturgy.crafting.Recipes;
 
 public class ClientProxy extends CommonProxy {
 
@@ -40,6 +41,8 @@ public class ClientProxy extends CommonProxy {
 
 	@Override
 	public void init(FMLInitializationEvent event) {
+		super.init(event);
+		Recipes.init();
 
 	}
 

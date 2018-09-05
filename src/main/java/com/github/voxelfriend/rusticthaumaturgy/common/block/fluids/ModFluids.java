@@ -98,9 +98,9 @@ package com.github.voxelfriend.rusticthaumaturgy.common.block.fluids;
     				}.setInebriationChance(0.5F).setDensity(1004).setViscosity(1016);
     		        register(CINDERFIRE_WHISKEY);
     		        
-    		        SHIMMERDEW_SPIRITS = new FluidBooze("shimmering_spirits",
-    		        		new ResourceLocation("rusticthaumaturgy:blocks/fluids/booze/shimmering_spirits_still"),
-    		        		new ResourceLocation("rusticthaumaturgy:blocks/fluids/booze/shimmering_spirits_flow")) {
+    		        SHIMMERDEW_SPIRITS = new FluidBooze("shimmerdew_spirits",
+    		        		new ResourceLocation("rusticthaumaturgy:blocks/fluids/booze/shimmerdew_spirits_still"),
+    		        		new ResourceLocation("rusticthaumaturgy:blocks/fluids/booze/shimmerdew_spirits_flow")) {
     					@Override
     					protected void affectPlayer(World world, EntityPlayer player, float quality) {
     						if (quality >= 0.5F) {

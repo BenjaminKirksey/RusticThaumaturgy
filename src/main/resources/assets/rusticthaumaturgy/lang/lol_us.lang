@@ -1,7 +1,33 @@
 #Creative Tab
 itemGroup.rusticthaumaturgy.main=Teh Rustic Thaumy Stuffs
+
+#Items
+item.rusticthaumaturgy.dust_tiny_blaze.name= Tiny Pile of Blaze Dust
+item.rusticthaumaturgy.cindermote.name=Smol Spicyplant
+item.rusticthaumaturgy.shimmerpetal.name=Smol Shinyplant
+item.rusticthaumaturgy.viscap.name=Smol Ickshroom
+
+#Seeds
+item.rusticthaumaturgy.cindermote_seeds.name=Smol Spicyplant Thingies
+item.rusticthaumaturgy.shimmerpetal_bulb.name=Smol Shinyplant Thingy
+item.rusticthaumaturgy.viscap_spores.name=Smol Ickshroom Stuff
+
 #Blocks
 tile.rusticthaumaturgy.chair_greatwood.name=Gr8w00d Sits
 tile.rusticthaumaturgy.table_greatwood.name=Gr8w00d Tbl
 tile.rusticthaumaturgy.chair_silverwood.name=Silvrw00d Sits
 tile.rusticthaumaturgy.table_silverwood.name=Silvrw00d Tbl
+
+#Fluids
+tile.rusticthaumaturgy.cinderfire_wort.name=Spicy Stuff
+fluid.cinderfire_wort=Spicy Stuff
+tile.rusticthaumaturgy.shimmerdew_wort.name=Sparkly Stuff
+fluid.shimmerdew_wort=Sparkly Stuff
+tile.rusticthaumaturgy.viscous_wort.name=Icky Stuff
+fluid.viscous_wort=Icky Stuff
+tile.rusticthaumaturgy.cinderfire_whiskey.name=Spicy Glug
+fluid.cinderfire_whiskey=Spicy Glug
+tile.rusticthaumaturgy.shimmerdew_spirits.name=Sparkly Glug
+fluid.shimmerdew_spirits=Sparkly Glug
+tile.rusticthaumaturgy.viscous_brew.name=Icky Glug
+fluid.viscous_brew=Icky Glug
