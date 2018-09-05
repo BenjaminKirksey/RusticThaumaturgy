@@ -1,4 +1,4 @@
-package com.github.voxelfriend.rusticthaumaturgy.common.block.fluids;
+package com.github.voxelfriend.rusticthaumaturgy.common.blocks.fluids;
 
 import javax.annotation.Nonnull;
 

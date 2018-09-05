@@ -17,8 +17,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.creativetab.CreativeTabs;
 import com.github.voxelfriend.rusticthaumaturgy.core.RusticThaumaturgy;
 import net.minecraftforge.fml.common.Mod;
-import rustic.common.items.ItemStakeCropSeed;
-
 
 public class ModItems {
 	public static ItemBase BLAZE_POWDER_TINY;
@@ -40,7 +38,7 @@ public class ModItems {
 		SHIMMERPETAL.setCreativeTab(RusticThaumaturgy.mainTab);
 		SHIMMERPETAL_BULB = new ItemBase("shimmerpetal_bulb");
 		SHIMMERPETAL_BULB.setCreativeTab(RusticThaumaturgy.mainTab);
-		VISCAP =new ItemBase("viscap");
+		VISCAP = new ItemBase("viscap");
 		VISCAP.setCreativeTab(RusticThaumaturgy.mainTab);
 		VISCAP_SPORES =new ItemBase("viscap_spores");
 		VISCAP_SPORES.setCreativeTab(RusticThaumaturgy.mainTab);
@@ -53,10 +51,10 @@ public class ModItems {
 		BLAZE_POWDER_TINY.initModel();
 		CINDERMOTE.initModel();
 		CINDERMOTE_SEEDS.initModel();
-		SHIMMERPETAL.initModel();
 		SHIMMERPETAL_BULB.initModel();
-		VISCAP.initModel();
+		SHIMMERPETAL.initModel();
 		VISCAP_SPORES.initModel();
+		VISCAP.initModel();
 		
 	}
 

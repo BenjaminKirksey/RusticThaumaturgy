@@ -6,13 +6,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.github.voxelfriend.rusticthaumaturgy.core.RusticThaumaturgy;
-import com.github.voxelfriend.rusticthaumaturgy.common.block.ModBlocks;
-import com.github.voxelfriend.rusticthaumaturgy.common.block.fluids.ModFluids;
+import com.github.voxelfriend.rusticthaumaturgy.common.blocks.ModBlocks;
+import com.github.voxelfriend.rusticthaumaturgy.common.blocks.fluids.ModFluids;
 import com.github.voxelfriend.rusticthaumaturgy.common.items.ModItems;
 
 import thaumcraft.api.blocks.BlocksTC;
 import thaumcraft.api.items.ItemsTC;
 import thaumcraft.client.lib.obj.Material;
+import net.minecraft.block.Block;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.IRecipe;
@@ -94,7 +95,7 @@ public class Recipes {
 		crushingTubRecipes.add(new CrushingTubRecipe(new FluidStack(ModFluids.SHIMMERDEW_WORT, 250), new ItemStack(BlocksTC.shimmerleaf)));
 		
 		//Viscous Brew Crushing Recipes
-		crushingTubRecipes.add(new CrushingTubRecipe(new FluidStack(ModFluids.VISCOUS_WORT, 125), new ItemStack(ModItems.VISCAP)));
+		//crushingTubRecipes.add(new CrushingTubRecipe(new FluidStack(ModFluids.VISCOUS_WORT, 125), new ItemStack((Block) Viscap.instance)));
 		crushingTubRecipes.add(new CrushingTubRecipe(new FluidStack(ModFluids.VISCOUS_WORT, 250), new ItemStack(BlocksTC.vishroom)));
 	}
 		

@@ -7,6 +7,63 @@ item.rusticthaumaturgy.cindermote.name=Cindermote
 item.rusticthaumaturgy.shimmerpetal.name=Shimmerpetal
 item.rusticthaumaturgy.viscap.name=Viscap
 
+#Vis Crystal Rustic Candles
+item.rusticthaumaturgy.candle_aer= Aer Vis-Candle
+item.rusticthaumaturgy.candle_terra=Terra Vis-Candle
+item.rusticthaumaturgy.candle_ignis=Ignis Vis-Candle
+item.rusticthaumaturgy.candle_aqua=Aqua Vis-Candle
+item.rusticthaumaturgy.candle_ordo=Ordo Vis-Candle
+item.rusticthaumaturgy.candle_perditio=Perditio Vis-Candle
+item.rusticthaumaturgy.candle_vacuos=Vacuos Vis-Candle
+item.rusticthaumaturgy.candle_auram=Auram Vis-Candle
+item.rusticthaumaturgy.candle_vitium=Vitium Vis-Candle
+item.rusticthaumaturgy.candle_lux=Lux Vis-Candle
+item.rusticthaumaturgy.candle_potentia=Potentia Vis-Candle
+item.rusticthaumaturgy.candle_motus=Motus Vis-Candle
+item.rusticthaumaturgy.candle_victus=Victus Vis-Candle
+item.rusticthaumaturgy.candle_mortuus=Mortuus Vis-Candle
+item.rusticthaumaturgy.candle_volatus=Volatus Vis-Candle
+item.rusticthaumaturgy.candle_tenebrae=Tenebrae Vis-Candle
+item.rusticthaumaturgy.candle_herba=Herba Vis-Candle
+item.rusticthaumaturgy.candle_spiritus=Spiritus Vis-Candle
+item.rusticthaumaturgy.candle_humanus=Humanus Vis-Candle
+item.rusticthaumaturgy.candle_bestia=Bestia Vis-Candle
+item.rusticthaumaturgy.candle_exanimis=Exanimis Vis-Candle
+item.rusticthaumaturgy.candle_cognitio=Cognitio Vis-Candle
+item.rusticthaumaturgy.candle_sensus=Sensus Vis-Candle
+item.rusticthaumaturgy.candle_metallum=Metallum Vis-Candle
+item.rusticthaumaturgy.candle_instrumentum=Instrumentum Vis-Candle
+item.rusticthaumaturgy.candle_aversio=Aversio Vis-Candle
+item.rusticthaumaturgy.candle_gelum=Gelum Vis-Candle
+item.rusticthaumaturgy.candle_vitreus=Vitreus Vis-Candle
+item.rusticthaumaturgy.candle_alienis=Alienis Vis-Candle
+item.rusticthaumaturgy.candle_praemunio=Praemunio Vis-Candle
+item.rusticthaumaturgy.candle_fabrico=Fabrico Vis-Candle
+item.rusticthaumaturgy.candle_desiderium=Desiderium Vis-Candle
+item.rusticthaumaturgy.candle_machina=machina Vis-Candle
+item.rusticthaumaturgy.candle_vinculum=Vinculum Vis-Candle
+item.rusticthaumaturgy.candle_permutatio=Permutatio Vis-Candle
+item.rusticthaumaturgy.candle_praecantatio=Praecantatio Vis-Candle
+item.rusticthaumaturgy.candle_alkimia=Alkimia Vis-Candle
+
+#Colored Rustic Candles
+item.rusticthaumaturgy.candle_white
+item.rusticthaumaturgy.candle_red
+item.rusticthaumaturgy.candle_orange
+item.rusticthaumaturgy.candle_pink
+item.rusticthaumaturgy.candle_yellow
+item.rusticthaumaturgy.candle_lime
+item.rusticthaumaturgy.candle_green
+item.rusticthaumaturgy.candle_light_blue
+item.rusticthaumaturgy.candle_cyan
+item.rusticthaumaturgy.candle_blue
+item.rusticthaumaturgy.candle_magenta
+item.rusticthaumaturgy.candle_purple
+item.rusticthaumaturgy.candle_brown
+item.rusticthaumaturgy.candle_gray
+item.rusticthaumaturgy.candle_light_gray
+item.rusticthaumaturgy.candle_black
+
 #Seeds
 item.rusticthaumaturgy.cindermote_seeds.name=Cindermote Seeds
 item.rusticthaumaturgy.shimmerpetal_bulb.name=Shimmerdew Bulb
@@ -31,3 +88,6 @@ tile.rusticthaumaturgy.shimmerdew_spirits.name=Shimmerdew Spirits
 fluid.shimmerdew_spirits=Shimmerdew Spirits
 tile.rusticthaumaturgy.viscous_brew.name=Viscous Brew
 fluid.viscous_brew=Viscous Brew
+
+#Potion Effects
+effect.visceral_surge=Visceral Surge

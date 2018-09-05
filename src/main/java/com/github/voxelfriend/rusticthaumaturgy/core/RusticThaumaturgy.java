@@ -5,8 +5,8 @@ package com.github.voxelfriend.rusticthaumaturgy.core;
 import org.apache.logging.log4j.Logger;
 
 import com.github.voxelfriend.rusticthaumaturgy.crafting.Recipes;
-import com.github.voxelfriend.rusticthaumaturgy.common.block.ModBlocks;
-import com.github.voxelfriend.rusticthaumaturgy.common.block.fluids.ModFluids;
+import com.github.voxelfriend.rusticthaumaturgy.common.blocks.ModBlocks;
+import com.github.voxelfriend.rusticthaumaturgy.common.blocks.fluids.ModFluids;
 import com.github.voxelfriend.rusticthaumaturgy.common.items.ModItems;
 import com.github.voxelfriend.rusticthaumaturgy.core.CommonProxy;
 

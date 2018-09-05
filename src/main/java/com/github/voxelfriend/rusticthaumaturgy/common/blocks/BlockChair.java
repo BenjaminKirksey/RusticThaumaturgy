@@ -1,4 +1,4 @@
-package com.github.voxelfriend.rusticthaumaturgy.common.block;
+package com.github.voxelfriend.rusticthaumaturgy.common.blocks;
 
 import java.util.List;
 
