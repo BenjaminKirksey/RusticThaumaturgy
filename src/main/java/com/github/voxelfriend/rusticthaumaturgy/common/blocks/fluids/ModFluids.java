@@ -5,7 +5,6 @@ package com.github.voxelfriend.rusticthaumaturgy.common.blocks.fluids;
     import java.util.ArrayList;
     import java.util.List;
 
-import com.github.voxelfriend.rusticthaumaturgy.common.potions.PotionsRT;
 
 import net.minecraft.block.material.Material;
 	import net.minecraft.block.state.IBlockState;
@@ -26,7 +25,8 @@ import net.minecraft.block.material.Material;
     import rustic.common.potions.PotionsRustic;
     import thaumcraft.api.potions.PotionVisExhaust;
     import thaumcraft.common.lib.potions.PotionWarpWard;
-    import thaumcraft.common.lib.potions.PotionSunScorned;
+import thaumcraft.common.lib.potions.PotionBlurredVision;
+import thaumcraft.common.lib.potions.PotionSunScorned;
     import thaumcraft.common.lib.potions.PotionThaumarhia;
 
     public class ModFluids {
@@ -134,7 +134,8 @@ import net.minecraft.block.material.Material;
     							float saturation = 4F * quality;
     							player.getFoodStats().addStats(2, saturation);
     							int duration = (int) (12000 * (Math.max(Math.abs((quality - 0.5F) * 2F), 0F)));
-    							player.addPotionEffect(new PotionEffect(PotionsRT.VISCERAL_SURGE, duration));
+    							player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, duration));
+    							player.addPotionEffect(new PotionEffect(PotionBlurredVision.instance, duration));
     						} else {
     							int duration = (int) (6000 * Math.max(1 - quality, 0));
 								player.addPotionEffect(new PotionEffect(PotionVisExhaust.instance, duration));

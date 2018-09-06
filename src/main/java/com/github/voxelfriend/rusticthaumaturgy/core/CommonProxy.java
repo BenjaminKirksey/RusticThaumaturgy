@@ -7,7 +7,6 @@ import java.io.File;
 import com.github.voxelfriend.rusticthaumaturgy.common.blocks.ModBlocks;
 import com.github.voxelfriend.rusticthaumaturgy.common.blocks.fluids.ModFluids;
 import com.github.voxelfriend.rusticthaumaturgy.common.items.ModItems;
-import com.github.voxelfriend.rusticthaumaturgy.common.potions.PotionsRT;
 import com.github.voxelfriend.rusticthaumaturgy.crafting.Recipes;
 
 import net.minecraft.block.BlockDispenser;
@@ -42,7 +41,6 @@ public abstract class CommonProxy implements IProxy {
 		ModFluids.init();
         ModBlocks.init();
         ModItems.init();
-        PotionsRT.init();
     }
 	
 	public void init(FMLInitializationEvent event) {
