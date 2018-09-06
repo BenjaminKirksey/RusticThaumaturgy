@@ -55,9 +55,9 @@ public class ModItems {
 		CINDERMOTE.initModel();
 		SHIMMERPETAL.initModel();
 		VISCAP.initModel();
-		ModelLoader.setCustomModelResourceLocation(CINDERMOTE_SEEDS, 0, new ModelResourceLocation(CINDERMOTE_SEEDS.getRegistryName().toString()));
-		ModelLoader.setCustomModelResourceLocation(SHIMMERPETAL_BULB, 0, new ModelResourceLocation(SHIMMERPETAL_BULB.getRegistryName().toString()));
-		ModelLoader.setCustomModelResourceLocation(VISCAP_SPORES, 0, new ModelResourceLocation(VISCAP_SPORES.getRegistryName().toString()));
+		ModelLoader.setCustomModelResourceLocation(CINDERMOTE_SEEDS, 0, new ModelResourceLocation(CINDERMOTE_SEEDS.getRegistryName(),"inventory"));
+		ModelLoader.setCustomModelResourceLocation(SHIMMERPETAL_BULB, 0, new ModelResourceLocation(SHIMMERPETAL_BULB.getRegistryName(),"inventory"));
+		ModelLoader.setCustomModelResourceLocation(VISCAP_SPORES, 0, new ModelResourceLocation(VISCAP_SPORES.getRegistryName(),"inventory"));
 		
 	}
 	
