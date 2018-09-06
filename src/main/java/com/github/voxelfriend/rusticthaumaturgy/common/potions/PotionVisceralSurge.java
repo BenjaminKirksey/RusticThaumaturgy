@@ -32,7 +32,7 @@ public class PotionVisceralSurge extends Potion
 		return super.getStatusIconIndex();
 	}
 	
-	static final ResourceLocation rl = new ResourceLocation("thaumcraft","textures/misc/potions.png");
+	static final ResourceLocation rl = new ResourceLocation("rusticthaumaturgy","textures/potions/visceral_surge.png");
 	
 	@Override
 	public void performEffect(EntityLivingBase target, int par2) {

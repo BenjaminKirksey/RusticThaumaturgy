@@ -1,4 +1,4 @@
-{   "parent": "rusticthaumaturgy:block/cindermote",
+{   "parent": "rusticthaumaturgy:block/cindermote_stage3",
     "textures": {
        "crop": "rusticthaumaturgy:blocks/cindermote_stage2"
     }

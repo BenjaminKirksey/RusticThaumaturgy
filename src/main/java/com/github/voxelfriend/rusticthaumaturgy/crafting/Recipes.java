@@ -81,7 +81,9 @@ public class Recipes {
 				new ResourceLocation(RusticThaumaturgy.MODID, "table"), new ItemStack(ModBlocks.TABLE_SILVERWOOD, 2), "PPP", "S S", 'P', new ItemStack(BlocksTC.plankSilverwood), 'S', new ItemStack(Items.STICK));
 		}
 		//Tiny Pile of Blaze Powder to Blaze Powder Recipe
-		GameRegistry.addShapedRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "dustTinyBlaze"), new ResourceLocation(RusticThaumaturgy.MODID, "conversion"), new ItemStack(Items.BLAZE_POWDER, 1), "PP ", "PP ", "   " , 'P', new ItemStack(ModItems.BLAZE_POWDER_TINY));
+		GameRegistry.addShapedRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "dustTinyBlaze"), new ResourceLocation(RusticThaumaturgy.MODID, "conversion"), new ItemStack(Items.BLAZE_POWDER, 1), "PP", "PP", 'P', new ItemStack(ModItems.BLAZE_POWDER_TINY));
+		//Blaze Powder to Tiny Pile of Blaze Powder Recipe
+		GameRegistry.addShapelessRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "blaze_powder"), new ResourceLocation(RusticThaumaturgy.MODID, "conversion"), new ItemStack(ModItems.BLAZE_POWDER_TINY, 4), Ingredient.fromStacks(new ItemStack(Items.BLAZE_POWDER)));
 		//Cindermote to Tiny Pile of Blaze Powder Conversion Recipe
 		GameRegistry.addShapelessRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "cindermote"), new ResourceLocation(RusticThaumaturgy.MODID, "conversion"), new ItemStack(ModItems.BLAZE_POWDER_TINY), Ingredient.fromStacks(new ItemStack(ModItems.CINDERMOTE)));
 	}

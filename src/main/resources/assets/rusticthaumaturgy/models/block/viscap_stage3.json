@@ -1,6 +1,6 @@
 {
     "ambientocclusion": false,
 	"textures": {  
-	   "particle": "#crop"
+	   "particle": "rusticthaumaturgy:blocks/viscap_stage3"
     }
 }

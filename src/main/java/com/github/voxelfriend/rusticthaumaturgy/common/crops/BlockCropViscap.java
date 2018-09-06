@@ -61,7 +61,7 @@ public class BlockCropViscap extends BlockCrops {
     
     @Override
     public boolean canUseBonemeal(World worldIn, Random rand, BlockPos pos, IBlockState state) {
-        return false;
+        return true;
     }
     
     @Override
@@ -72,7 +72,7 @@ public class BlockCropViscap extends BlockCrops {
 
     @Override
     public boolean canGrow(World worldIn, BlockPos pos, @Nonnull IBlockState state, boolean isClient) {
-        return state.getValue(AGE) < 2 && (isOnFarmland(worldIn, pos) || worldIn.getLightFromNeighbors(pos.up()) <= 2);
+        return state.getValue(AGE) < 7 && (isOnFarmland(worldIn, pos) || worldIn.getLightFromNeighbors(pos.up()) <= 7);
     }
 
     @Override
@@ -84,7 +84,7 @@ public class BlockCropViscap extends BlockCrops {
         baseChance /= 1.0F;
 
         if (worldIn.getLightFromNeighbors(pos.up()) <= 7) {
-            if (state.getValue(AGE) < 2) {
+            if (state.getValue(AGE) < 7) {
                 if (rand.nextInt((int) (baseChance / getGrowthChance(this, worldIn, pos)) + 1) == 0) {
                     worldIn.setBlockState(pos, state.withProperty(AGE, state.getValue(AGE) + 1), 2);
                 }

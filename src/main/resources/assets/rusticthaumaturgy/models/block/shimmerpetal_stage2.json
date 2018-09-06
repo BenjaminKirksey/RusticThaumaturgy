@@ -1,4 +1,4 @@
-{   "parent": "rusticthaumaturgy:block/shimmerpetal",
+{   "parent": "rusticthaumaturgy:block/shimmerpetal_stage3",
     "textures": {
        "crop": "rusticthaumaturgy:blocks/shimmerpetal_stage2"
     }

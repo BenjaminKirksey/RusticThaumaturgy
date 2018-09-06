@@ -5,6 +5,7 @@ package com.github.voxelfriend.rusticthaumaturgy.common.blocks;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -46,6 +47,8 @@ public class ModBlocks {
 	public static final BlockCropShimmerpetal SHIMMERPETAL = new BlockCropShimmerpetal();
 	public static final BlockCropViscap VISCAP = new BlockCropViscap();
 	
+	
+	
 	public static void init() {
 		if (Config.ENABLE_CHAIRS) {
 			CHAIR_GREATWOOD = new BlockChair("greatwood");
@@ -57,6 +60,9 @@ public class ModBlocks {
 			TABLE_SILVERWOOD = new BlockTable("silverwood");
 
 		}
+		GameRegistry.findRegistry(Block.class).register(CINDERMOTE);
+		GameRegistry.findRegistry(Block.class).register(SHIMMERPETAL);
+		GameRegistry.findRegistry(Block.class).register(VISCAP);
 
 }
 

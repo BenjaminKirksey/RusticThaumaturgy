@@ -1,9 +1,12 @@
 {
   "variants": {
     "age=0": { "model": "rusticthaumaturgy:shimmerpetal_stage0" },
-    "age=1": { "model": "rusticthaumaturgy:shimmerpetal_stage1" },
-    "age=2": { "model": "rusticthaumaturgy:shimmerpetal_stage2" },
-	"age=3": { "model": "rusticthaumaturgy:shimmerpetal" }
-
+    "age=1": { "model": "rusticthaumaturgy:shimmerpetal_stage0" },
+    "age=2": { "model": "rusticthaumaturgy:shimmerpetal_stage0" },
+    "age=3": { "model": "rusticthaumaturgy:shimmerpetal_stage1" },
+    "age=4": { "model": "rusticthaumaturgy:shimmerpetal_stage1" },
+    "age=5": { "model": "rusticthaumaturgy:shimmerpetal_stage2" },
+    "age=6": { "model": "rusticthaumaturgy:shimmerpetal_stage2" },
+    "age=7": { "model": "rusticthaumaturgy:shimmerpetal_stage3" }
   }
 }

@@ -1,0 +1,6 @@
+{
+    "ambientocclusion": false,
+	"textures": {  
+	   "particle": "rusticthaumaturgy:blocks/cindermote_stage3"
+    }
+}
