@@ -27,13 +27,4 @@ public class ItemShimmerpetalBulb extends ItemSeeds {
         this.setUnlocalizedName(Names.Items.SHIMMERPETAL_BULB);
         this.setRegistryName(Names.Items.SHIMMERPETAL_BULB);
     }
-
-    @Override
-    @SideOnly(Side.CLIENT)
-    public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
-        super.addInformation(stack, worldIn, tooltip, flagIn);
-        if (stack.getItem() instanceof ItemSeeds) {
-            tooltip.add(I18n.format("shimmerpetal.tip.bulb"));
-        }
-    }
 }

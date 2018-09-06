@@ -1,0 +1,5 @@
+{   "parent": "rusticthaumaturgy:block/shimmerpetal",
+    "textures": {
+       "crop": "rusticthaumaturgy:blocks/shimmerpetal_stage2"
+    }
+}	

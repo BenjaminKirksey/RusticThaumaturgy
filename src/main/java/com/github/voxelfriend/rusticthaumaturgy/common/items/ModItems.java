@@ -8,6 +8,7 @@ import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemSeeds;
 import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.stats.StatList;
 import net.minecraft.util.ActionResult;
@@ -22,7 +23,10 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.creativetab.CreativeTabs;
 import com.github.voxelfriend.rusticthaumaturgy.core.RusticThaumaturgy;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.relauncher.Side;
 
 public class ModItems {
 	public static ItemBase BLAZE_POWDER_TINY;
@@ -40,6 +44,8 @@ public class ModItems {
 		BLAZE_POWDER_TINY.setCreativeTab(RusticThaumaturgy.mainTab);
 		CINDERMOTE = new ItemBase("cindermote");
 		CINDERMOTE.setCreativeTab(RusticThaumaturgy.mainTab);
+		CINDERMOTE_SEEDS = new ItemCindermoteSeeds();
+		CINDERMOTE_SEEDS.setCreativeTab(RusticThaumaturgy.mainTab);
 		SHIMMERPETAL = new ItemBase("shimmerpetal");
 		SHIMMERPETAL.setCreativeTab(RusticThaumaturgy.mainTab);
 		SHIMMERPETAL_BULB =new ItemShimmerpetalBulb();
@@ -48,6 +54,11 @@ public class ModItems {
 		VISCAP.setCreativeTab(RusticThaumaturgy.mainTab);
 		VISCAP_SPORES =new ItemViscapSpores();
 		VISCAP_SPORES.setCreativeTab(RusticThaumaturgy.mainTab);
+		GameRegistry.findRegistry(Item.class).register(CINDERMOTE_SEEDS);
+		GameRegistry.findRegistry(Item.class).register(SHIMMERPETAL_BULB);
+		GameRegistry.findRegistry(Item.class).register(VISCAP_SPORES);
+	}
+	public static void onModelRegistry() {
 	}
 	
 	public static void initModels() {
@@ -60,10 +71,6 @@ public class ModItems {
 		ModelLoader.setCustomModelResourceLocation(VISCAP_SPORES, 0, new ModelResourceLocation(VISCAP_SPORES.getRegistryName(),"inventory"));
 		
 	}
-	
-	@SubscribeEvent
-	public void registerItems(RegistryEvent.Register<Item> event) {
-	    event.getRegistry().registerAll(CINDERMOTE_SEEDS, SHIMMERPETAL_BULB, VISCAP_SPORES);
-	}
+
 
 }

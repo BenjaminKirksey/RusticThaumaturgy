@@ -27,13 +27,4 @@ public class ItemViscapSpores extends ItemSeeds {
         this.setUnlocalizedName(Names.Items.VISCAP_SPORES);
         this.setRegistryName(Names.Items.VISCAP_SPORES);
     }
-
-    @Override
-    @SideOnly(Side.CLIENT)
-    public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
-        super.addInformation(stack, worldIn, tooltip, flagIn);
-        if (stack.getItem() instanceof ItemSeeds) {
-            tooltip.add(I18n.format("viscap.tip.spores"));
-        }
-    }
 }

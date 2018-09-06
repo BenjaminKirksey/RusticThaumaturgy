@@ -73,7 +73,7 @@ public class ModBlocks {
 
 		}
 		for (Block block : BLOCKS) {
-            ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName().toString()));
+            ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName(),"inventory"));
 }
 }
 

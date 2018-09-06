@@ -65,9 +65,9 @@ item.rusticthaumaturgy.candle_light_gray
 item.rusticthaumaturgy.candle_black
 
 #Seeds
-item.rusticthaumaturgy.cindermote_seeds.name=Cindermote Seeds
-item.rusticthaumaturgy.shimmerpetal_bulb.name=Shimmerdew Bulb
-item.rusticthaumaturgy.viscap_spores.name=Viscap Spores
+item.cindermote_seeds.name=Cindermote Seeds
+item.shimmerpetal_bulb.name=Shimmerdew Bulb
+item.viscap_spores.name=Viscap Spores
 
 #Blocks
 tile.rusticthaumaturgy.chair_greatwood.name=Greatwood Chair

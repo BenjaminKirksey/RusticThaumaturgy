@@ -1,0 +1,5 @@
+{   "parent": "rusticthaumaturgy:block/cindermote",
+    "textures": {
+       "crop": "rusticthaumaturgy:blocks/cindermote_stage0"
+    }
+}	

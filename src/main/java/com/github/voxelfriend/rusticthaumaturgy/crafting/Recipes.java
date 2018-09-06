@@ -80,6 +80,8 @@ public class Recipes {
 			GameRegistry.addShapedRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "silverwood_table"),
 				new ResourceLocation(RusticThaumaturgy.MODID, "table"), new ItemStack(ModBlocks.TABLE_SILVERWOOD, 2), "PPP", "S S", 'P', new ItemStack(BlocksTC.plankSilverwood), 'S', new ItemStack(Items.STICK));
 		}
+		//Tiny Pile of Blaze Powder to Blaze Powder Recipe
+		GameRegistry.addShapedRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "dustTinyBlaze"), new ResourceLocation(RusticThaumaturgy.MODID, "conversion"), new ItemStack(Items.BLAZE_POWDER, 1), "PP ", "PP ", "   " , 'P', new ItemStack(ModItems.BLAZE_POWDER_TINY));
 		//Cindermote to Tiny Pile of Blaze Powder Conversion Recipe
 		GameRegistry.addShapelessRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "cindermote"), new ResourceLocation(RusticThaumaturgy.MODID, "conversion"), new ItemStack(ModItems.BLAZE_POWDER_TINY), Ingredient.fromStacks(new ItemStack(ModItems.CINDERMOTE)));
 	}
@@ -95,7 +97,7 @@ public class Recipes {
 		crushingTubRecipes.add(new CrushingTubRecipe(new FluidStack(ModFluids.SHIMMERDEW_WORT, 250), new ItemStack(BlocksTC.shimmerleaf)));
 		
 		//Viscous Brew Crushing Recipes
-		//crushingTubRecipes.add(new CrushingTubRecipe(new FluidStack(ModFluids.VISCOUS_WORT, 125), new ItemStack((Block) Viscap.instance)));
+		crushingTubRecipes.add(new CrushingTubRecipe(new FluidStack(ModFluids.VISCOUS_WORT, 125), new ItemStack(ModItems.VISCAP)));
 		crushingTubRecipes.add(new CrushingTubRecipe(new FluidStack(ModFluids.VISCOUS_WORT, 250), new ItemStack(BlocksTC.vishroom)));
 	}
 		
