@@ -1,4 +1,4 @@
-{
+{   "parent": "block/crop",
     "ambientocclusion": false,
 	"textures": {  
 	   "particle": "rusticthaumaturgy:blocks/shimmerpetal_stage3"

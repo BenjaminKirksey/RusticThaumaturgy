@@ -1,4 +1,4 @@
-{   "parent": "rusticthaumaturgy:block/viscap_stage3",
+{   "parent": "block/crop",
     "textures": {
        "crop": "rusticthaumaturgy:blocks/viscap_stage0"
     }

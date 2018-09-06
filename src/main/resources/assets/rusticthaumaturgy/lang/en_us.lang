@@ -88,6 +88,3 @@ tile.rusticthaumaturgy.shimmerdew_spirits.name=Shimmerdew Spirits
 fluid.shimmerdew_spirits=Shimmerdew Spirits
 tile.rusticthaumaturgy.viscous_brew.name=Viscous Brew
 fluid.viscous_brew=Viscous Brew
-
-#Potion Effects
-effect.visceral_surge=Visceral Surge
