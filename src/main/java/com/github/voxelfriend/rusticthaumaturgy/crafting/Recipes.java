@@ -10,11 +10,17 @@ import com.github.voxelfriend.rusticthaumaturgy.common.blocks.ModBlocks;
 import com.github.voxelfriend.rusticthaumaturgy.common.blocks.fluids.ModFluids;
 import com.github.voxelfriend.rusticthaumaturgy.common.items.ModItems;
 
+import thaumcraft.api.crafting.ShapedArcaneRecipe;
+import thaumcraft.api.ThaumcraftApi;
+import thaumcraft.api.aspects.Aspect;
+import thaumcraft.api.aspects.AspectList;
 import thaumcraft.api.blocks.BlocksTC;
 import thaumcraft.api.items.ItemsTC;
 import thaumcraft.client.lib.obj.Material;
+import thaumcraft.common.blocks.BlockTC;
 import net.minecraft.block.Block;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.item.crafting.Ingredient;
@@ -37,6 +43,22 @@ import rustic.common.crafting.CrushingTubRecipe;
 import rustic.common.crafting.EvaporatingBasinRecipe;
 import rustic.common.crafting.RecipeNonIngredientReturn;
 import rustic.core.Rustic;
+import thaumcraft.api.ThaumcraftApi;
+import thaumcraft.api.aspects.Aspect;
+import thaumcraft.api.aspects.AspectList;
+import thaumcraft.api.blocks.BlocksTC;
+import thaumcraft.api.capabilities.IPlayerKnowledge.EnumKnowledgeType;
+import thaumcraft.api.crafting.CrucibleRecipe;
+import thaumcraft.api.crafting.IThaumcraftRecipe;
+import thaumcraft.api.crafting.InfusionRecipe;
+import thaumcraft.api.items.ItemsTC;
+import thaumcraft.api.research.ResearchCategories;
+import thaumcraft.api.research.ResearchCategory;
+import thaumcraft.api.research.ResearchEntry;
+import thaumcraft.api.research.ResearchEntry.EnumResearchMeta;
+import thaumcraft.api.research.ResearchStage;
+import thaumcraft.common.config.ConfigItems;
+import thaumcraft.common.lib.research.ResearchManager;
 
 import static rustic.common.crafting.Recipes.crushingTubRecipes;
 import static rustic.common.crafting.Recipes.evaporatingRecipes;
@@ -86,6 +108,7 @@ public class Recipes {
 		GameRegistry.addShapelessRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "blaze_powder"), new ResourceLocation(RusticThaumaturgy.MODID, "conversion"), new ItemStack(ModItems.BLAZE_POWDER_TINY, 4), Ingredient.fromStacks(new ItemStack(Items.BLAZE_POWDER)));
 		//Cindermote to Tiny Pile of Blaze Powder Conversion Recipe
 		GameRegistry.addShapelessRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "cindermote"), new ResourceLocation(RusticThaumaturgy.MODID, "conversion"), new ItemStack(ModItems.BLAZE_POWDER_TINY), Ingredient.fromStacks(new ItemStack(ModItems.CINDERMOTE)));
+		GameRegistry.addShapelessRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "shimmerpetal"), new ResourceLocation(RusticThaumaturgy.MODID, "conversion"), new ItemStack(ItemsTC.nuggets, 1 ,5), Ingredient.fromStacks(new ItemStack(ModItems.SHIMMERPETAL)));
 	}
 	
 	
@@ -119,10 +142,4 @@ public class Recipes {
 		//Viscous Brew Recipe
 		brewingRecipes.add(new BrewingBarrelRecipe(new FluidStack(ModFluids.VISCOUS_BREW, 1),new FluidStack(ModFluids.VISCOUS_WORT, 1)));
 	}
-	
-	//public static void onPostInit()	
-	//	ThaumcraftApi.addArcaneCraftingRecipe(new ResourceLocation(RusticThaumaturgy.MOD_ID, "cindermote_seeds"),
-	//			new ShapedArcaneRecipe(new ResourceLocation("****"),"****", ****, new AspectList().add(Aspect.****,****), new ItemStack(ModItems.CINDERMOTE), "****", " ****", "****", ****, "****", ****, BlockTC.cinderpearl, ****, ****));
-    //}
-
 }

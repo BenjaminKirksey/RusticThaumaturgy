@@ -1,0 +1,70 @@
+{
+	"entries": [
+		{
+			"key": "BASE_RUSTIC_THAUMATURGY",
+			"name": "research.BASE_RUSTIC_THAUMATURGY.title",
+			"icons": ["rustic:brewing_barrel"],
+			"category": "RUSTIC_THAUMATURGY", "location": [0,0],
+			"parents": ["LAMPGROWTH"],
+			"meta": ["ROUND" , "HIDDEN"],
+			"stages": [
+				{
+					"text": "research.BASE_RUSTIC_THAUMATURGY.stage.1",
+					"recipes":
+					["RusticThaumaturgy:greatwood_chair", "RusticThaumaturgy:silverwood_chair", "RusticThaumaturgy:greatwood_table", "RusticThaumaturgy:silverwood_table"]
+				}
+			]
+        },
+		{
+			"key": "CINDERMOTE_SEEDS",
+			"name": "research.CINDERMOTE_SEEDS.title",
+			"icons": ["rusticthaumaturgy:textures/items/cindermote_seeds.png"],
+			"category": "RUSTIC_THAUMATURGY", "location": [-3,3],
+			"parents": ["BASE_RUSTIC_THAUMATURGY", "LAMPGROWTH"],
+			"stages": [
+				{
+					"text": "research.CINDERMOTE_SEEDS.stage.1",
+					"required_knowledge":["THEORY;INFUSION;1", "THEORY;ALCHEMY;1"]
+				},
+				{
+					"text": "research.CINDERMOTE_SEEDS.stage.2",
+					"recipes": ["rusticthaumaturgy:cindermote_seeds", "rusticthaumaturgy:cindermote", "rusticthaumaturgy:dustTinyBlaze"]
+				}
+			]
+        },
+		{
+			"key": "SHIMMERPETAL_BULB",
+			"name": "research.SHIMMERPETAL_BULB.title",
+			"icons": ["rusticthaumaturgy:textures/items/shimmerpetal_bulb.png"],
+			"category": "RUSTIC_THAUMATURGY", "location": [0,3],
+			"parents": ["BASE_RUSTIC_THAUMATURGY", "LAMPGROWTH"],
+			"stages": [
+				{
+					"text": "research.SHIMMERPETAL_BULB.stage.1",
+					"required_knowledge":["THEORY;INFUSION;1", "THEORY;ALCHEMY;1"]
+				},
+				{
+					"text": "research.SHIMMERPETAL_BULB.stage.2",
+					"recipes": ["rusticthaumaturgy:shimmerpetal_bulb", "rusticthaumaturgy:shimmerpetal"]
+				}
+			]
+        },
+		{
+			"key": "VISCAP_SPORES",
+			"name": "research.VISCAP_SPORES.title",
+			"icons": ["rusticthaumaturgy:textures/items/viscap_spores.png"],
+			"category": "RUSTIC_THAUMATURGY", "location": [3,3],
+			"parents": ["BASE_RUSTIC_THAUMATURGY", "LAMPGROWTH"],
+			"stages": [
+				{
+					"text": "research.VISCAP_SPORES.stage.1",
+					"required_knowledge":["THEORY;INFUSION;1", "THEORY;ALCHEMY;1"]
+				},
+				{
+					"text": "research.VISCAP_SPORES.stage.2",
+					"recipes": ["rusticthaumaturgy:viscap_spores"]
+				}
+			]
+        }    
+	]
+}

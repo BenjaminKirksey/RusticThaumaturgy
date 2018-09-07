@@ -1,6 +1,0 @@
-{   "parent": "block/crop",
-    "ambientocclusion": false,
-	"textures": {  
-	   "particle": "rusticthaumaturgy:blocks/cindermote_stage3"
-    }
-}

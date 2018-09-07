@@ -1,12 +1,21 @@
 {
-  "variants": {
-    "age=0": { "model": "rusticthaumaturgy:shimmerpetal_stage0" },
-    "age=1": { "model": "rusticthaumaturgy:shimmerpetal_stage0" },
-    "age=2": { "model": "rusticthaumaturgy:shimmerpetal_stage0" },
-    "age=3": { "model": "rusticthaumaturgy:shimmerpetal_stage1" },
-    "age=4": { "model": "rusticthaumaturgy:shimmerpetal_stage1" },
-    "age=5": { "model": "rusticthaumaturgy:shimmerpetal_stage2" },
-    "age=6": { "model": "rusticthaumaturgy:shimmerpetal_stage2" },
-    "age=7": { "model": "rusticthaumaturgy:shimmerpetal_stage3" }
-  }
+    "forge_marker": 1,
+    "defaults":
+    {
+        "model": "cross"
+    },
+    "variants":
+    {
+        "age":
+        {
+            "0": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage0" } },
+            "1": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage0" } },
+            "2": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage0" } },
+            "3": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage1" } },
+            "4": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage1" } },
+            "5": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage2" } },
+            "6": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage2" } },
+            "7": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage3" } }
+        }
+    }
 }

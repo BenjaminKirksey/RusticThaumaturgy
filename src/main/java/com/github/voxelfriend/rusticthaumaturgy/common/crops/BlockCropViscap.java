@@ -61,7 +61,7 @@ public class BlockCropViscap extends BlockCrops {
     
     @Override
     public boolean canUseBonemeal(World worldIn, Random rand, BlockPos pos, IBlockState state) {
-        return true;
+        return false;
     }
     
     @Override
