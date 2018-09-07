@@ -15,7 +15,8 @@
 			],
 		    "addenda": [
                 {
-                    "text": "research.BASE_RUSTIC_THAUMATURGY.lampgrowth","required_research":["LAMPGROWTH"]
+                    "text": "research.BASE_RUSTIC_THAUMATURGY.lampgrowth",
+					"required_research":["LAMPGROWTH"]
                 }
             ]
 
@@ -74,27 +75,40 @@
 				}
 			]
         },
-        {
+		{
 			"key": "THAUMIC_BREWS",
-			"name": "research.BREWING.title",
+			"name": "research.THAUMIC_BREWS.title",
 			"icons": ["rustic:brewing_barrel"],
 			"category": "RUSTIC_THAUMATURGY", "location": [4,-4],
 			"parents": ["BASE_RUSTIC_THAUMATURGY"],
-			"meta": ["ROUND"],
 			"stages": [
 				{
-					"text": "research.BASE_RUSTIC_THAUMATURGY.stage.1"
+					"text": "research.THAUMIC_BREWS.stage.1"
 				}
-			]
+				
+			],
+			"addenda": [
+                {
+                    "text": "research.THAUMIC_BREWS.cinderfire",
+					"required_research":["CINDERFIRE_WHISKEY"]
+                },
+				{
+                    "text": "research.THAUMIC_BREWS.shimmerdew",
+					"required_research":["SHIMMERDEW_SPIRITS"]
+                },
+				{
+                    "text": "research.THAUMIC_BREWS.viscous",
+					"required_research":["VISCOUS_BREW"]
+                }
+            ]
 
         },
         {
 			"key": "CINDERFIRE_WHISKEY",
-			"name": "research.BREWING.title",
-			"icons": ["rustic:brewing_barrel"],
+			"name": "research.CINDERFIRE_WHISKEY.title",
+			"icons": ["rustic:fluid_bottle"],
 			"category": "RUSTIC_THAUMATURGY", "location": [-2,-6],
 			"parents": ["THAUMIC_BREWS" , "CINDERMOTE_SEEDS"],
-			"meta": ["ROUND"],
 			"stages": [
 				{
 					"text": "research.CINDERFIRE_WHISKEY.stage.1"
@@ -104,11 +118,10 @@
         },
 		{
 			"key": "SHIMMERDEW_SPIRITS",
-			"name": "research.BREWING.title",
-			"icons": ["rustic:brewing_barrel"],
+			"name": "research.SHIMMERDEW_SPIRITS.title",
+			"icons": ["rustic:fluid_bottle"],
 			"category": "RUSTIC_THAUMATURGY", "location": [0,-6],
 			"parents": ["THAUMIC_BREWS" , "SHIMMERPETAL_BULB"],
-			"meta": ["ROUND"],
 			"stages": [
 				{
 					"text": "research.SHIMMERDEW_SPIRITS.stage.1"
@@ -118,8 +131,8 @@
         },
 		{
 			"key": "VISCOUS_BREW",
-			"name": "research.BREWING.title",
-			"icons": ["rustic:brewing_barrel"],
+			"name": "research.VISCOUS_BREW.title",
+			"icons": ["rustic:fluid_bottle"],
 			"category": "RUSTIC_THAUMATURGY", "location": [2,-6],
 			"parents": ["THAUMIC_BREWS" , "VISCAP_SPORES"],
 			"meta": ["ROUND"],

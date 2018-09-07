@@ -110,3 +110,18 @@ research.VISCAP_SPORES.title=Viscap Spores
 
 research.VISCAP_SPORES.stage.1=Viscap Stage 1
 research.VISCAP_SPORES.stage.2=Viscap Stage 2
+
+research.THAUMIC_BREWS.title=Thaumic Brews
+research.THAUMIC_BREWS.stage.1=Stage 1 Placeholder
+research.THAUMIC_BREWS.cinderfire=I have discovered that Cinderpearl and my newly discovered Cindermote can be processed into some firey whiskey. I shall call it Cinderfire Whiskey.
+research.THAUMIC_BREWS.shimmerdew=I have discovered that Shimmerleaf and my newly discovered Shimmerpetal can be processed into some smooth spirits. I shall call it Shimmerdew Spirits.
+research.THAUMIC_BREWS.viscous=I have discovered that Vishroom and my newly discovered Viscap can be processed into some strong brew. I shall call it Viscous Brew.
+
+research.CINDERFIRE_WHISKEY.title=Cinderfire Whiskey
+research.CINDERFIRE_WHISKEY.stage.1=Cinderfire Whiskey has a distinct, spicy flavor, and is rather harsh going down. Drinking it seems to warm the body like normal alcohol, but unlike normal alcohol, it also seems to warm the soul! I should be careful of the quality I drink, since there is no telling what could happen if your soul gets too hot.
+
+research.SHIMMERDEW_SPIRITS.title=Shimmerdew Spirits
+research.SHIMMERDEW_SPIRITS.stage.1=Shimmerdew Spirits has a smooth, subtle, almost sweet flavor, and the alcohol content, though significant, is barely detectable. I should take care when brewing it, as despite it's mind-calming properties, a bad batch could make me very ill. I shudder to think the kind of symptoms a magically induced digestive infection could bring.
+
+research.VISCOUS_BREW.title=Viscous Brew
+research.VISCOUS_BREW.stage.1=Viscous Brew has a strong, earthy flavor, and it sure does pack a punch! When I drink it, my mind focuses to an almost painful level, and I find myself moving with a sense of urgency. The brewing of this alcohol should be treated with care, since imbibing some of poor quality could do a number on my mind.
