@@ -93,22 +93,22 @@ fluid.viscous_brew=Viscous Brew
 tc.research_category.RUSTIC_THAUMATURGY=Rustic Thaumaturgy
 
 research.BASE_RUSTIC_THAUMATURGY.title=Rustic Thaumaturgy
-research.BASE_RUSTIC_THAUMATURGY.stage.1=Base Stage 1
-research.BASE_RUSTIC_THAUMATURGY.addenda=Base Addenda
+research.BASE_RUSTIC_THAUMATURGY.stage.1=I see other people and their mundane furniture, and I scoff at them. I am a Thaumaturge! A purveyor of miracles! I think someone of my status should have furniture that reflects the mystical nature of my craft. The rare and mystical Silverwood ought to supply the quality of wood I require, as well as the ancient Greatwood with it's ties to the Old World. Truly there will be no greater pedistal to place myself upon, and with such regal surfaces to place my beverage of choice.
+research.BASE_RUSTIC_THAUMATURGY.stage.2=I see other people and their mundane furniture, and I scoff at them. I am a Thaumaturge! A purveyor of miracles! I think someone of my status should have furniture that reflects the mystical nature of my craft. The rare and mystical Silverwood ought to supply the quality of wood I require, as well as the ancient Greatwood with it's ties to the Old World. Truly there will be no greater pedistal to place myself upon, and with such regal surfaces to place my beverage of choice. Come to think of it, shouldn't a Thurge of my status deserve an alcohol equal to my mysticality? The question is now, what should I use to make such a brew? I should ponder this...
 
 research.CINDERMOTE_SEEDS.title=Cindermote Seeds
 
-research.CINDERMOTE_SEEDS.stage.1=Cindermote Stage 1
+research.CINDERMOTE_SEEDS.stage.1=The hearty Cinderpearl thrives in the scorching hot desert, dispite its seemingly frail composition. It endures harsh winds and intense heat constantly, but as soon as I pluck it from the ground, it takes little effort to . The  I must investigate this plant further.
 research.CINDERMOTE_SEEDS.stage.2=Cindermote Stage 2
 
 research.SHIMMERPETAL_BULB.title=Shimmerpetal Bulb
 
-research.SHIMMERPETAL_BULB.stage.1=Shimmerpetal Stage 1
-research.SHIMMERPETAL_BULB.stage.2=Shimmerpetal Stage 2
+research.SHIMMERPETAL_BULB.stage.1=Nothing has captured my attention more over the past few days than the elegance of the Shimmerleaf. Such a rare plant, it only grows in close proximity to the mystical Silverwood. Perhaps it is drawn to the purity of the tree? I need to ponder this plant.
+research.SHIMMERPETAL_BULB.stage.2=Upon studying the Shimmerleaf closely alongside the Silverwood, it would seem that they actually co-exist in the form of some sort of... mutual protection? The Silverwood infuses the ground around it with magical energy, eventually transmogrifying seeds in the dirt into something closer in nature to itself: the Shimmerleaf. The Shimmerleaf, in return, seems to purify the immediate area around it, in a seemingly desperate attempt to return the tree's gift in kind. Unfortunatly, the purifying properties of the plant is too weak to have a noticable affect on the local aura. There might be other uses for this plant, however. More study is needed.
 
-research.VISCAP_SPORES.title=Viscap Spores
+research.VISCAP_SPORES.title= Viscap Spores
 
-research.VISCAP_SPORES.stage.1=Viscap Stage 1
+research.VISCAP_SPORES.stage.1=I ran across another one of those deceitful Vishroom today. The colorful mushroom may appear captivating, but if I so much as breath in an iota of its spores, I am liable to lose my lunch. It's hard to believe some maniacs even collect these, let alone make a soup of them! Then again, those same maniacs claim that the soup, while riddled with side effects, also enhanced their prowess. I suppose it is worth looking into. Better do it on an empty stomach though...
 research.VISCAP_SPORES.stage.2=Viscap Stage 2
 
 research.THAUMIC_BREWS.title=Thaumic Brews
@@ -121,7 +121,7 @@ research.CINDERFIRE_WHISKEY.title=Cinderfire Whiskey
 research.CINDERFIRE_WHISKEY.stage.1=Cinderfire Whiskey has a distinct, spicy flavor, and is rather harsh going down. Drinking it seems to warm the body like normal alcohol, but unlike normal alcohol, it also seems to warm the soul! I should be careful of the quality I drink, since there is no telling what could happen if your soul gets too hot.
 
 research.SHIMMERDEW_SPIRITS.title=Shimmerdew Spirits
-research.SHIMMERDEW_SPIRITS.stage.1=Shimmerdew Spirits has a smooth, subtle, almost sweet flavor, and the alcohol content, though significant, is barely detectable. I should take care when brewing it, as despite it's mind-calming properties, a bad batch could make me very ill. I shudder to think the kind of symptoms a magically induced digestive infection could bring.
+research.SHIMMERDEW_SPIRITS.stage.1=Shimmerdew Spirits has a smooth, subtle, almost sweet flavor, and the alcohol content, though significant, is barely detectable. I should take care when brewing it, as despite it's mind-calming properties, a bad batch could make me very ill. I shudder to think the kind of symptoms a magically-induced digestive infection could bring.
 
 research.VISCOUS_BREW.title=Viscous Brew
 research.VISCOUS_BREW.stage.1=Viscous Brew has a strong, earthy flavor, and it sure does pack a punch! When I drink it, my mind focuses to an almost painful level, and I find myself moving with a sense of urgency. The brewing of this alcohol should be treated with care, since imbibing some of poor quality could do a number on my mind.

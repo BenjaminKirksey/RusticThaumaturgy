@@ -5,82 +5,58 @@
 			"name": "research.BASE_RUSTIC_THAUMATURGY.title",
 			"icons": ["rustic:brewing_barrel"],
 			"category": "RUSTIC_THAUMATURGY", "location": [0,0],
-			"parents": ["INFUSION"],
-			"meta": ["ROUND" , "HIDDEN"],
+			"meta": ["ROUND"],
 			"stages": [
 				{
 					"text": "research.BASE_RUSTIC_THAUMATURGY.stage.1",
-					"recipes": ["RusticThaumaturgy:greatwood_chair", "RusticThaumaturgy:silverwood_chair", "RusticThaumaturgy:greatwood_table", "RusticThaumaturgy:silverwood_table"]
+					"recipes": ["RusticThaumaturgy:greatwood_chair", "RusticThaumaturgy:silverwood_chair", "RusticThaumaturgy:greatwood_table", "RusticThaumaturgy:silverwood_table", "Rustic:brewing_barrel"],
+                    "required_craft":["rustic:brewing_barrel"]			
+				},
+				{
+					"text": "research.BASE_RUSTIC_THAUMATURGY.stage.2"					
 				}
-			],
-		    "addenda": [
-                {
-                    "text": "research.BASE_RUSTIC_THAUMATURGY.lampgrowth",
-					"required_research":["LAMPGROWTH"]
-                }
-            ]
+			]
 
         },
 		{
-			"key": "CINDERMOTE_SEEDS",
-			"name": "research.CINDERMOTE_SEEDS.title",
-			"icons": ["rusticthaumaturgy:textures/items/cindermote_seeds.png"],
-			"category": "RUSTIC_THAUMATURGY", "location": [-4,-4],
-			"parents": ["BASE_RUSTIC_THAUMATURGY@addenda", "LAMPGROWTH"],
+			"key": "RUSTIC_BREWS",
+			"name": "research.RUSTIC_BREWS.title",
+			"icons": ["rustic:brewing_barrel"],
+			"category": "RUSTIC_THAUMATURGY", "location": [0,2],
+			"parents": ["BASE_RUSTIC_THAUMATURGY@rustic_brews"],
 			"stages": [
 				{
-					"text": "research.CINDERMOTE_SEEDS.stage.1",
-					"required_knowledge":["THEORY;INFUSION;1", "THEORY;ALCHEMY;1"],
-					"required_item":["thaumcraft:cinderpearl;10"]
-				},
+					"text": "research.RUSTIC_BREWS.stage.1"
+
+				}	
+			],
+			"addenda": [
+                {
+                    "text": "research.RUSTIC_BREWS.thaumic_brews",
+					"required_research":["THAUMIC_BREWS"]
+                },
 				{
-					"text": "research.CINDERMOTE_SEEDS.stage.2",
-					"recipes": ["rusticthaumaturgy:cindermote_seeds", "rusticthaumaturgy:cindermote", "rusticthaumaturgy:dustTinyBlaze"]
-				}
-			]
-        },
-		{
-			"key": "SHIMMERPETAL_BULB",
-			"name": "research.SHIMMERPETAL_BULB.title",
-			"icons": ["rusticthaumaturgy:textures/items/shimmerpetal_bulb.png"],
-			"category": "RUSTIC_THAUMATURGY", "location": [-2,-2],
-			"parents": ["BASE_RUSTIC_THAUMATURGY@addenda", "LAMPGROWTH"],
-			"stages": [
+                    "text": "research.RUSTIC_BREWS.cinderpearl",
+					"required_research":["!PLANTCINDERPEARL"]
+                },
 				{
-					"text": "research.SHIMMERPETAL_BULB.stage.1",
-					"required_knowledge":["THEORY;INFUSION;1", "THEORY;ALCHEMY;1"],
-					"required_item":["thaumcraft:shimmerleaf;10"]
-				},
+                    "text": "research.RUSTIC_BREWS.shimmerleaf",
+					"required_research":["!PLANTSHIMMERLEAF"]
+                },
 				{
-					"text": "research.SHIMMERPETAL_BULB.stage.2",
-					"recipes": ["rusticthaumaturgy:shimmerpetal_bulb", "rusticthaumaturgy:shimmerpetal"]
-				}
-			]
-        },
-		{
-			"key": "VISCAP_SPORES",
-			"name": "research.VISCAP_SPORES.title",
-			"icons": ["rusticthaumaturgy:textures/items/viscap_spores.png"],
-			"category": "RUSTIC_THAUMATURGY", "location": [2,-2],
-			"parents": ["BASE_RUSTIC_THAUMATURGY@addenda", "LAMPGROWTH"],
-			"stages": [
-				{
-					"text": "research.VISCAP_SPORES.stage.1",
-					"required_knowledge":["THEORY;INFUSION;1", "THEORY;ALCHEMY;1"],
-					"required_item":["thaumcraft:vishroom;10"]
-				},
-				{
-					"text": "research.VISCAP_SPORES.stage.2",
-					"recipes": ["rusticthaumaturgy:viscap_spores"]
-				}
-			]
+                    "text": "research.RUSTIC_BREWS.vishroom",
+					"required_research":["!PLANTVISHROOM"]
+                }
+              
+            ]
+
         },
 		{
 			"key": "THAUMIC_BREWS",
 			"name": "research.THAUMIC_BREWS.title",
 			"icons": ["rustic:brewing_barrel"],
-			"category": "RUSTIC_THAUMATURGY", "location": [4,-4],
-			"parents": ["BASE_RUSTIC_THAUMATURGY"],
+			"category": "RUSTIC_THAUMATURGY", "location": [4,-2],
+			"parents": ["RUSTIC_BREWS"],
 			"stages": [
 				{
 					"text": "research.THAUMIC_BREWS.stage.1"
@@ -103,11 +79,66 @@
             ]
 
         },
+		{
+			"key": "CINDERMOTE_SEEDS",
+			"name": "research.CINDERMOTE_SEEDS.title",
+			"icons": ["rusticthaumaturgy:textures/items/cindermote_seeds.png"],
+			"category": "RUSTIC_THAUMATURGY", "location": [-4,-2],
+			"parents": ["~INFUSION", "RUSTIC_BREWS@cinderpearl"],
+			"stages": [
+				{
+					"text": "research.CINDERMOTE_SEEDS.stage.1",
+					"required_knowledge":["THEORY;INFUSION;1", "THEORY;ALCHEMY;1"],
+					"required_item":["thaumcraft:cinderpearl;10"]
+				},
+				{
+					"text": "research.CINDERMOTE_SEEDS.stage.2",
+					"recipes": ["rusticthaumaturgy:cindermote_seeds", "rusticthaumaturgy:cindermote", "rusticthaumaturgy:dustTinyBlaze"]
+				}
+			]
+        },
+		{
+			"key": "SHIMMERPETAL_BULB",
+			"name": "research.SHIMMERPETAL_BULB.title",
+			"icons": ["rusticthaumaturgy:textures/items/shimmerpetal_bulb.png"],
+			"category": "RUSTIC_THAUMATURGY", "location": [-2,-1],
+			"parents": ["~INFUSION", "RUSTIC_BREWS@shimmerleaf"],
+			"stages": [
+				{
+					"text": "research.SHIMMERPETAL_BULB.stage.1",
+					"required_knowledge":["THEORY;INFUSION;1", "THEORY;ALCHEMY;1"],
+					"required_item":["thaumcraft:shimmerleaf;10"]
+				},
+				{
+					"text": "research.SHIMMERPETAL_BULB.stage.2",
+					"recipes": ["rusticthaumaturgy:shimmerpetal_bulb", "rusticthaumaturgy:shimmerpetal"]
+				}
+			]
+        },
+		{
+			"key": "VISCAP_SPORES",
+			"name": "research.VISCAP_SPORES.title",
+			"icons": ["rusticthaumaturgy:textures/items/viscap_spores.png"],
+			"category": "RUSTIC_THAUMATURGY", "location": [2,-1],
+			"parents": ["~INFUSION", "RUSTIC_BREWS@vishroom"],
+			"stages": [
+				{
+					"text": "research.VISCAP_SPORES.stage.1",
+					"required_knowledge":["THEORY;INFUSION;1", "THEORY;ALCHEMY;1"],
+					"required_item":["thaumcraft:vishroom;10"]
+				},
+				{
+					"text": "research.VISCAP_SPORES.stage.2",
+					"recipes": ["rusticthaumaturgy:viscap_spores"]
+				}
+			]
+        },
+		
         {
 			"key": "CINDERFIRE_WHISKEY",
 			"name": "research.CINDERFIRE_WHISKEY.title",
-			"icons": ["rustic:fluid_bottle"],
-			"category": "RUSTIC_THAUMATURGY", "location": [-2,-6],
+			"icons": ["rustic:fluid_bottle;1;0;{Fluid: {FluidName: "cinderfire_whiskey", Amount: 1000}}"],
+			"category": "RUSTIC_THAUMATURGY", "location": [-2,-4],
 			"parents": ["THAUMIC_BREWS" , "CINDERMOTE_SEEDS"],
 			"stages": [
 				{
@@ -120,7 +151,7 @@
 			"key": "SHIMMERDEW_SPIRITS",
 			"name": "research.SHIMMERDEW_SPIRITS.title",
 			"icons": ["rustic:fluid_bottle"],
-			"category": "RUSTIC_THAUMATURGY", "location": [0,-6],
+			"category": "RUSTIC_THAUMATURGY", "location": [0,-4],
 			"parents": ["THAUMIC_BREWS" , "SHIMMERPETAL_BULB"],
 			"stages": [
 				{
@@ -133,7 +164,7 @@
 			"key": "VISCOUS_BREW",
 			"name": "research.VISCOUS_BREW.title",
 			"icons": ["rustic:fluid_bottle"],
-			"category": "RUSTIC_THAUMATURGY", "location": [2,-6],
+			"category": "RUSTIC_THAUMATURGY", "location": [2,-4],
 			"parents": ["THAUMIC_BREWS" , "VISCAP_SPORES"],
 			"meta": ["ROUND"],
 			"stages": [
