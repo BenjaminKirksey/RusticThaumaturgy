@@ -137,7 +137,7 @@
         {
 			"key": "CINDERFIRE_WHISKEY",
 			"name": "research.CINDERFIRE_WHISKEY.title",
-			"icons": ["rustic:fluid_bottle;1;0;{Fluid: {FluidName: "cinderfire_whiskey", Amount: 1000}}"],
+			"icons": ["rustic:fluid_bottle;1;0;{Fluid: {FluidName: 'cinderfire_whiskey', Amount: 1000}}"],
 			"category": "RUSTIC_THAUMATURGY", "location": [-2,-4],
 			"parents": ["THAUMIC_BREWS" , "CINDERMOTE_SEEDS"],
 			"stages": [
