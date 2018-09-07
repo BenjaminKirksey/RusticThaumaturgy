@@ -114,6 +114,9 @@ public abstract class CommonProxy implements IProxy {
 						new ItemStack(Items.WATER_BUCKET),
 						new ItemStack(Items.WHEAT_SEEDS),
 						new ItemStack(Items.DYE, 1, 15),
+						new ItemStack(Items.WATER_BUCKET),
+						new ItemStack(Items.WHEAT_SEEDS),
+						new ItemStack(Items.DYE, 1, 15),
 						new ItemStack(Items.WATER_BUCKET)
 			    )
 		);
@@ -142,6 +145,9 @@ public abstract class CommonProxy implements IProxy {
 						new ItemStack(Items.WATER_BUCKET),
 						new ItemStack(Items.WHEAT_SEEDS),
 						new ItemStack(Items.DYE, 1, 15),
+						new ItemStack(Items.WATER_BUCKET),
+						new ItemStack(Items.WHEAT_SEEDS),
+						new ItemStack(Items.DYE, 1, 15),
 						new ItemStack(Items.WATER_BUCKET)
 			    )
 		);
@@ -162,6 +168,9 @@ public abstract class CommonProxy implements IProxy {
 						//Center Item
 						new ItemStack(BlocksTC.vishroom),
 						//Outer Items
+						new ItemStack(Items.WHEAT_SEEDS),
+						new ItemStack(Items.DYE, 3, 15),
+						new ItemStack(Items.WATER_BUCKET),
 						new ItemStack(Items.WHEAT_SEEDS),
 						new ItemStack(Items.DYE, 1, 15),
 						new ItemStack(Items.WATER_BUCKET),

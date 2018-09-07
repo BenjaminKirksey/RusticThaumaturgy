@@ -93,19 +93,20 @@ fluid.viscous_brew=Viscous Brew
 tc.research_category.RUSTIC_THAUMATURGY=Rustic Thaumaturgy
 
 research.BASE_RUSTIC_THAUMATURGY.title=Rustic Thaumaturgy
-research.BASE_RUSTIC_THAUMATURGY.stage.1=
+research.BASE_RUSTIC_THAUMATURGY.stage.1=Base Stage 1
+research.BASE_RUSTIC_THAUMATURGY.addenda=Base Addenda
 
 research.CINDERMOTE_SEEDS.title=Cindermote Seeds
 
-research.CINDERMOTE_SEEDS.stage.1=
-research.CINDERMOTE_SEEDS.stage.2=
+research.CINDERMOTE_SEEDS.stage.1=Cindermote Stage 1
+research.CINDERMOTE_SEEDS.stage.2=Cindermote Stage 2
 
 research.SHIMMERPETAL_BULB.title=Shimmerpetal Bulb
 
-research.SHIMMERPETAL_BULB.stage.1=
-research.SHIMMERPETAL_BULB.stage.2=
+research.SHIMMERPETAL_BULB.stage.1=Shimmerpetal Stage 1
+research.SHIMMERPETAL_BULB.stage.2=Shimmerpetal Stage 2
 
 research.VISCAP_SPORES.title=Viscap Spores
 
-research.VISCAP_SPORES.stage.1=
-research.VISCAP_SPORES.stage.2=
+research.VISCAP_SPORES.stage.1=Viscap Stage 1
+research.VISCAP_SPORES.stage.2=Viscap Stage 2
